@@ -1,0 +1,22 @@
+[
+  {
+    "venueId": "sg-harrys-boat-quay",
+    "venueName": "Harry's Boat Quay, Singapore",
+    "urls": ["https://harrys.com.sg/promotions"]
+  },
+  {
+    "venueId": "sg-level33",
+    "venueName": "LeVeL33, Marina Bay Financial Centre, Singapore",
+    "urls": ["https://level33.com.sg/promotions"]
+  },
+  {
+    "venueId": "sg-brewerkz-riverside",
+    "venueName": "Brewerkz Riverside Point, Singapore",
+    "urls": ["https://brewerkz.com/promotions"]
+  },
+  {
+    "venueId": "mo-sky21",
+    "venueName": "Sky 21 Bar, Macau",
+    "urls": ["https://sky21macau.com"]
+  }
+]
