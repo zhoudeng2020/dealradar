@@ -43,7 +43,7 @@ export function DealCard({ item, currency, now, onPress }: { item: RankedDeal; c
         </Text>
         {price && <Text style={styles.metaText}>{price}</Text>}
       </View>
-      {item.deal.confidence < 0.9 && <Text style={styles.unverified}>Unverified — check with venue</Text>}
+      {item.deal.confidence < 0.9 && <Text style={styles.unverified}>Not confirmed — check with the venue</Text>}
     </Pressable>
   );
 }

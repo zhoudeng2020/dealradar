@@ -70,7 +70,7 @@ export default function DealDetail() {
 
       <Section title="Source">
         <Text style={styles.muted}>
-          {deal.confidence >= 0.9 ? 'Verified' : 'Unverified (AI-extracted or sampled)'} · last checked {deal.lastVerified}
+          {deal.confidence >= 0.9 ? "Confirmed from the venue's own listing" : 'Not confirmed — check with the venue before you go'} · last checked {deal.lastVerified}
         </Text>
         <Pressable onPress={() => Linking.openURL(deal.sourceUrl)}>
           <Text style={styles.link}>{deal.sourceUrl}</Text>

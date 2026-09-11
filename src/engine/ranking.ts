@@ -17,7 +17,7 @@ import { dealTiming } from './hours';
  *   timing   0–30  active now beats "starts soon"; ending too soon is penalised
  *   travel   0–20  door-to-door minutes for the chosen mode
  *   weather  -15–0 rain/heat penalties for walking and outdoor venues
- *   confidence      multiplier on value (unverified AI extractions rank lower)
+ *   confidence      multiplier on value; an unconfirmed deal keeps only 15-100% of its value points
  *
  * Deals you cannot reach before they end are marked unreachable and sink to the bottom.
  */
@@ -100,8 +100,8 @@ export function rankDeal(
   const timing = dealTiming(deal.windows, ctx.now, ctx.horizonMin);
 
   const v = valueScore(deal);
-  const valuePts = v.score * (0.6 + 0.4 * deal.confidence);
-  reasons.push(`${v.label}${deal.confidence < 0.9 ? ' (unverified)' : ''}`);
+  const valuePts = v.score * (0.15 + 0.85 * deal.confidence);
+  reasons.push(`${v.label}${deal.confidence < 0.9 ? ' (not confirmed)' : ''}`);
 
   const t = timingScore(timing, travel.minutes);
   reasons.push(t.label);
