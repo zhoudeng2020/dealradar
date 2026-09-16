@@ -73,11 +73,17 @@ export function useDealFeed(opts: FeedOptions): FeedResult {
       const now = opts.simulatedNow ?? new Date();
       const venues = VENUES.filter((v) => v.city === city.code);
       const venueIdx = new Map(venues.map((v, i) => [v.id, i]));
+      // Compare as local calendar dates, so a deal runs for the whole of its first
+      // and last day. Date objects would parse the ISO date as UTC midnight and cut
+      // eight hours off each end in SGT/MOT.
+      const pad = (n: number) => `${n}`.padStart(2, '0');
+      const today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
       const candidates = DEALS.filter(
         (d) =>
           venueIdx.has(d.venueId) &&
           (opts.types.length === 0 || opts.types.includes(d.type)) &&
-          (!d.validUntil || new Date(d.validUntil) >= now),
+          (!d.validFrom || d.validFrom <= today) &&
+          (!d.validUntil || d.validUntil >= today),
       );
 
       const [w, travel, opening] = await Promise.all([

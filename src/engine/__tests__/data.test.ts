@@ -74,6 +74,13 @@ describe('seed data integrity', () => {
     }
   });
 
+  it('never starts a dated deal after it ends', () => {
+    const backwards = DEALS
+      .filter((d) => d.validFrom && d.validUntil && d.validFrom > d.validUntil)
+      .map((d) => `${d.id}: ${d.validFrom} to ${d.validUntil}`);
+    expect(backwards).toEqual([]);
+  });
+
   it('never prices a deal at or above the price it claims to beat', () => {
     const wrong = DEALS
       .filter((d) => d.price != null && d.originalPrice != null && d.price >= d.originalPrice)

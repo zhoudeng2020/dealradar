@@ -66,7 +66,10 @@ export interface Deal {
   /** Explicit discount percentage (e.g. 50 for "50% off"). */
   discountPct?: number;
   windows: TimeWindow[];
-  /** ISO date after which the deal should not be shown. */
+  /** ISO date before which the deal should not be shown. Set for dated events
+   *  (race weeks, festival menus) so they do not surface weeks early. */
+  validFrom?: string;
+  /** ISO date after which the deal should not be shown. Inclusive of that day. */
   validUntil?: string;
   sourceUrl: string;
   /** ISO date the deal was last checked by a human or the extraction pipeline. */
