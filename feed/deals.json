@@ -1,0 +1,3664 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-20T08:17:00+00:00",
+  "venues": [
+    {
+      "id": "sg-harrys-boat-quay",
+      "name": "Harry's Boat Quay",
+      "city": "SG",
+      "location": {
+        "lat": 1.2871,
+        "lng": null
+      },
+      "address": "28 Boat Quay, Singapore 049818",
+      "cuisine": "Bar & grill",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:30",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "01:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://harrys.com.sg"
+    },
+    {
+      "id": "sg-level33",
+      "name": "LeVeL33",
+      "city": "SG",
+      "location": {
+        "lat": 1.2797,
+        "lng": null
+      },
+      "address": "8 Marina Blvd, #33-01 MBFC Tower 1, Singapore 018981",
+      "cuisine": "Craft brewery & restaurant",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://level33.com.sg"
+    },
+    {
+      "id": "sg-brewerkz-riverside",
+      "name": "Brewerkz Riverside Point",
+      "city": "SG",
+      "location": {
+        "lat": 1.2895,
+        "lng": null
+      },
+      "address": "30 Merchant Rd, #01-07 Riverside Point, Singapore 058282",
+      "cuisine": "Microbrewery",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "00:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://brewerkz.com"
+    },
+    {
+      "id": "sg-southbridge",
+      "name": "Southbridge",
+      "city": "SG",
+      "location": {
+        "lat": 1.2871,
+        "lng": null
+      },
+      "address": "80 Boat Quay, Rooftop Level 5, Singapore 049868",
+      "cuisine": "Rooftop bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "17:00",
+          "end": "00:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://southbridge.sg"
+    },
+    {
+      "id": "sg-cmcr-martin",
+      "name": "Common Man Coffee Roasters",
+      "city": "SG",
+      "location": {
+        "lat": 1.2914,
+        "lng": null
+      },
+      "address": "22 Martin Rd, #01-00, Singapore 239058",
+      "cuisine": "Café / brunch",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:30",
+          "end": "18:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://commonmancoffeeroasters.com"
+    },
+    {
+      "id": "sg-yakun-far-east-sq",
+      "name": "Ya Kun Kaya Toast (Far East Square)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2833,
+        "lng": null
+      },
+      "address": "18 China St, #01-01 Far East Square, Singapore 049560",
+      "cuisine": "Kopitiam breakfast",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "07:30",
+          "end": "19:00"
+        },
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "07:30",
+          "end": "17:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://yakun.com"
+    },
+    {
+      "id": "sg-wild-honey-mandarin",
+      "name": "Wild Honey (Mandarin Gallery)",
+      "city": "SG",
+      "location": {
+        "lat": 1.302,
+        "lng": null
+      },
+      "address": "333A Orchard Rd, #03-01 Mandarin Gallery, Singapore 238897",
+      "cuisine": "All-day breakfast",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "09:00",
+          "end": "21:30"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "09:00",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://wildhoney.com.sg"
+    },
+    {
+      "id": "sg-tanjong-beach-club",
+      "name": "Tanjong Beach Club",
+      "city": "SG",
+      "location": {
+        "lat": 1.244,
+        "lng": null
+      },
+      "address": "120 Tanjong Beach Walk, Sentosa, Singapore 098942",
+      "cuisine": "Beach club",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "10:00",
+          "end": "20:00"
+        },
+        {
+          "days": [
+            5
+          ],
+          "start": "10:00",
+          "end": "21:00"
+        },
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://tanjongbeachclub.com"
+    },
+    {
+      "id": "sg-ce-la-vi",
+      "name": "CÉ LA VI SkyBar",
+      "city": "SG",
+      "location": {
+        "lat": 1.2834,
+        "lng": null
+      },
+      "address": "1 Bayfront Ave, Marina Bay Sands Tower 3, Level 57, Singapore 018971",
+      "cuisine": "Rooftop bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "02:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.celavi.com/singapore"
+    },
+    {
+      "id": "sg-mr-stork",
+      "name": "Mr Stork (Andaz)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2988,
+        "lng": null
+      },
+      "address": "5 Fraser St, Level 39 Andaz Singapore, Singapore 189354",
+      "cuisine": "Rooftop bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "17:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "17:00",
+          "end": "01:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.hyatt.com/andaz/sinaz-andaz-singapore"
+    },
+    {
+      "id": "sg-lau-pa-sat",
+      "name": "Lau Pa Sat",
+      "city": "SG",
+      "location": {
+        "lat": 1.2805,
+        "lng": null
+      },
+      "address": "18 Raffles Quay, Singapore 048582",
+      "cuisine": "Hawker centre",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "00:00",
+          "end": "24:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://laupasat.sg"
+    },
+    {
+      "id": "mo-vida-rica-bar",
+      "name": "Vida Rica Bar (Mandarin Oriental)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1877,
+        "lng": null
+      },
+      "address": "Avenida Dr. Sun Yat Sen, NAPE, Macau",
+      "cuisine": "Hotel bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "18:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "18:00",
+          "end": "01:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.mandarinoriental.com/macau"
+    },
+    {
+      "id": "mo-old-taipa-tavern",
+      "name": "Old Taipa Tavern",
+      "city": "MO",
+      "location": {
+        "lat": 22.1555,
+        "lng": null
+      },
+      "address": "21 Rua dos Negociantes, Taipa Village, Macau",
+      "cuisine": "Pub",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "14:30",
+          "end": "02:30"
+        },
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "13:00",
+          "end": "02:30"
+        }
+      ],
+      "outdoor": true
+    },
+    {
+      "id": "mo-mcsorleys-venetian",
+      "name": "McSorley's Ale House (Venetian)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1465,
+        "lng": null
+      },
+      "address": "Shop 1038, Grand Canal Shoppes, The Venetian Macao, Cotai",
+      "cuisine": "Irish pub",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.venetianmacao.com/restaurants/mcsorleys-ale-house.html"
+    },
+    {
+      "id": "mo-cafe-ou-mun",
+      "name": "Café Ou Mun",
+      "city": "MO",
+      "location": {
+        "lat": 22.1937,
+        "lng": null
+      },
+      "address": "12 Travessa de S. Domingos, Macau",
+      "cuisine": "Portuguese café",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "10:00",
+          "end": "21:00"
+        }
+      ],
+      "outdoor": false
+    },
+    {
+      "id": "mo-sky21",
+      "name": "Sky 21 Bar",
+      "city": "MO",
+      "location": {
+        "lat": 22.1898,
+        "lng": null
+      },
+      "address": "AIA Tower, 21/F, 251A-301 Avenida Comercial de Macau",
+      "cuisine": "Rooftop bar",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:45",
+          "end": "03:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "11:45",
+          "end": "04:00"
+        },
+        {
+          "days": [
+            0
+          ],
+          "start": "12:00",
+          "end": "03:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://sky21macau.com"
+    },
+    {
+      "id": "sg-gingerlily-hilton",
+      "name": "Ginger.Lily Bar (Hilton Orchard)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3021,
+        "lng": null
+      },
+      "address": "333 Orchard Rd, Hilton Singapore Orchard, Singapore 238867",
+      "cuisine": "Hotel bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "01:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.hilton.com/en/hotels/sinorhi-hilton-singapore-orchard/dining/ginger-lily-bar/"
+    },
+    {
+      "id": "sg-10scotts",
+      "name": "10 Scotts (Grand Hyatt)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3064,
+        "lng": null
+      },
+      "address": "10 Scotts Rd, Grand Hyatt Singapore, Singapore 228211",
+      "cuisine": "Hotel lounge",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "09:30",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/dining"
+    },
+    {
+      "id": "sg-lantern-fullerton",
+      "name": "Lantern (Fullerton Bay)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2832,
+        "lng": null
+      },
+      "address": "80 Collyer Quay, The Fullerton Bay Hotel, Singapore 049326",
+      "cuisine": "Rooftop bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "15:00",
+          "end": "01:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "15:00",
+          "end": "02:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.fullertonhotels.com/fullerton-bay-hotel-singapore"
+    },
+    {
+      "id": "sg-spago-mbs",
+      "name": "Spago Bar & Lounge (MBS)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2836,
+        "lng": null
+      },
+      "address": "Marina Bay Sands Hotel Tower 2, Level 57, Singapore 018956",
+      "cuisine": "Rooftop bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "00:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.marinabaysands.com/restaurants/spago-bar-and-lounge.html"
+    },
+    {
+      "id": "sg-wineconnection-plq",
+      "name": "Wine Connection Bistro (PLQ)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3177,
+        "lng": null
+      },
+      "address": "1 Paya Lebar Link, #01-07 PLQ 2, Singapore 408533",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "00:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-plq-2"
+    },
+    {
+      "id": "sg-wineconnection-vivo",
+      "name": "Wine Connection Bistro (VivoCity)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2643,
+        "lng": null
+      },
+      "address": "1 HarbourFront Walk, #01-152 VivoCity, Singapore 098585",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:00",
+          "end": "23:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "11:00",
+          "end": "00:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-vivocity"
+    },
+    {
+      "id": "sg-otto-maxwell",
+      "name": "OTTO Ristorante",
+      "city": "SG",
+      "location": {
+        "lat": 1.2775,
+        "lng": null
+      },
+      "address": "32 Maxwell Rd, #01-02 Maxwell Chambers, Singapore 069115",
+      "cuisine": "Italian",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "22:30"
+        },
+        {
+          "days": [
+            6
+          ],
+          "start": "18:30",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.ottoristorante.com.sg"
+    },
+    {
+      "id": "sg-fortuna-craig",
+      "name": "Fortuna Trattoria",
+      "city": "SG",
+      "location": {
+        "lat": 1.2777,
+        "lng": null
+      },
+      "address": "7 Craig Rd, Tanjong Pagar, Singapore 089667",
+      "cuisine": "Italian",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "start": "12:00",
+          "end": "22:00"
+        },
+        {
+          "days": [
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://fortunadrinkeat.sg"
+    },
+    {
+      "id": "sg-sushi-yujo",
+      "name": "Sushi Yujo (Amara)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2749,
+        "lng": null
+      },
+      "address": "165 Tanjong Pagar Rd, #02-26 Amara Hotel, Singapore 088539",
+      "cuisine": "Japanese",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.sushiyujo.sg"
+    },
+    {
+      "id": "sg-novotel-stevens",
+      "name": "Food Exchange (Novotel Stevens)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3138,
+        "lng": null
+      },
+      "address": "28 Stevens Rd, Level 2, Singapore 257878",
+      "cuisine": "Buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "06:30",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.novotel-singapore-stevens.com"
+    },
+    {
+      "id": "sg-cafe2000-mhotel",
+      "name": "Cafe 2000 (M Hotel)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2737,
+        "lng": null
+      },
+      "address": "81 Anson Rd, M Hotel Singapore, Singapore 079908",
+      "cuisine": "Buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:00",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.millenniumhotels.com/en/singapore/m-hotel-singapore/"
+    },
+    {
+      "id": "sg-foodcapital-copthorne",
+      "name": "Food Capital (Grand Copthorne)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2903,
+        "lng": null
+      },
+      "address": "392 Havelock Rd, Grand Copthorne Waterfront, Singapore 169663",
+      "cuisine": "Buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.millenniumhotels.com/en/singapore/grand-copthorne-waterfront-hotel/"
+    },
+    {
+      "id": "mo-le-buffet-parisian",
+      "name": "Le Buffet (The Parisian)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1437,
+        "lng": null
+      },
+      "address": "Shop 3100, Level 1, The Parisian Macao, Cotai",
+      "cuisine": "Buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:00",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.parisianmacao.com/restaurants/le-buffet.html"
+    },
+    {
+      "id": "mo-churchills-londoner",
+      "name": "Churchills Table (The Londoner)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1459,
+        "lng": null
+      },
+      "address": "Level 1, The Londoner Macao, Cotai",
+      "cuisine": "British",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:00",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.londonermacao.com/macau-restaurants/churchills-table.html"
+    },
+    {
+      "id": "mo-hiro-ramen-venetian",
+      "name": "Hiro Ramen (The Venetian)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1467,
+        "lng": null
+      },
+      "address": "Shop 1048, Level 1, The Venetian Macao, Cotai",
+      "cuisine": "Japanese ramen",
+      "hours": [
+        {
+          "days": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.venetianmacao.com/restaurants/hiro-ramen.html"
+    },
+    {
+      "id": "mo-jiangnan-venetian",
+      "name": "Jiang Nan (The Venetian)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1467,
+        "lng": null
+      },
+      "address": "Shop 1078, Level 1, The Venetian Macao, Cotai",
+      "cuisine": "Chinese",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        },
+        {
+          "days": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "18:00",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.venetianmacao.com/restaurants/jiang-nan.html"
+    },
+    {
+      "id": "mo-grand-buffet-glp",
+      "name": "The Grand Buffet (Grand Lisboa Palace)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1441,
+        "lng": null
+      },
+      "address": "Shop 308, Level 3 West, Grand Lisboa Palace, Cotai",
+      "cuisine": "Buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:00",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.grandlisboapalace.com/en/restaurants-n-bars/the-grand-buffet"
+    },
+    {
+      "id": "mo-spotlight-studiocity",
+      "name": "Spotlight (Studio City)",
+      "city": "MO",
+      "location": {
+        "lat": 22.141,
+        "lng": null
+      },
+      "address": "Shop 2113, Level 2 East, Studio City Macau, Cotai",
+      "cuisine": "Buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:00",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.studiocity-macau.com/en/dining/spotlight"
+    },
+    {
+      "id": "mo-xanadu-sands",
+      "name": "Xanadu Lounge (Sands Macao)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1916,
+        "lng": null
+      },
+      "address": "1/F Sands Macao, Largo de Monte Carlo 203, Macau",
+      "cuisine": "Hotel bar",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "14:00",
+          "end": "22:00"
+        },
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "15:00",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.sandsmacao.com/dining/xanadu-lounge.html"
+    },
+    {
+      "id": "mo-360-cafe",
+      "name": "360 Cafe (Macau Tower)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1798,
+        "lng": null
+      },
+      "address": "60/F Macau Tower, Largo da Torre de Macau, Macau",
+      "cuisine": "Revolving buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.macautower.com.mo/en/dining/360-cafe/"
+    },
+    {
+      "id": "mo-royal-bakery",
+      "name": "Royal Bakery (Hotel Royal)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1962,
+        "lng": null
+      },
+      "address": "Estrada da Vitoria 2-4, Hotel Royal Macau, Macau",
+      "cuisine": "Bakery",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "09:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "09:00",
+          "end": "00:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.hotelroyal.com.mo"
+    },
+    {
+      "id": "mo-sintra-restaurant",
+      "name": "Sintra Restaurant (Hotel Sintra)",
+      "city": "MO",
+      "location": {
+        "lat": 22.1911,
+        "lng": null
+      },
+      "address": "Avenida de D. Joao IV 58-62, Hotel Sintra, Macau",
+      "cuisine": "Chinese-Western",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:00",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.hotelsintra.com"
+    },
+    {
+      "id": "sg-baba-chews",
+      "name": "Baba Chews (Hotel Indigo Katong)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3051,
+        "lng": null
+      },
+      "address": "86 East Coast Rd, Katong Square, Singapore 428788",
+      "cuisine": "Peranakan bar & eatery",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "06:30",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://babachews.com.sg"
+    },
+    {
+      "id": "sg-wineconn-i12",
+      "name": "Wine Connection Bistro (i12 Katong)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3052,
+        "lng": null
+      },
+      "address": "112 East Coast Rd, #01-10 i12 Katong, Singapore 428802",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "00:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-i12-katong"
+    },
+    {
+      "id": "sg-malthouse-siglap",
+      "name": "Malthouse (Siglap)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3118,
+        "lng": null
+      },
+      "address": "685 East Coast Rd, Singapore 459054",
+      "cuisine": "Craft beer bar",
+      "hours": [
+        {
+          "days": [
+            1
+          ],
+          "start": "17:00",
+          "end": "23:00"
+        },
+        {
+          "days": [
+            2,
+            3,
+            4
+          ],
+          "start": "17:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            5
+          ],
+          "start": "16:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            6
+          ],
+          "start": "12:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            0
+          ],
+          "start": "12:00",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.malthouse.sg"
+    },
+    {
+      "id": "sg-wineconn-tampines",
+      "name": "Wine Connection Bistro (Tampines 1)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3543,
+        "lng": null
+      },
+      "address": "10 Tampines Central 1, #01-21 Tampines 1, Singapore 529536",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            1
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        },
+        {
+          "days": [
+            2,
+            3,
+            4
+          ],
+          "start": "11:30",
+          "end": "22:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        },
+        {
+          "days": [
+            0
+          ],
+          "start": "11:30",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-tampines-1"
+    },
+    {
+      "id": "sg-wineconn-ntp",
+      "name": "Wine Connection Bistro (New Tech Park)",
+      "city": "SG",
+      "location": {
+        "lat": 1.352,
+        "lng": null
+      },
+      "address": "151 Lorong Chuan, #01-06 New Tech Park, Singapore 556741",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-new-tech-park"
+    },
+    {
+      "id": "sg-wineconn-downtowneast",
+      "name": "Wine Connection Bistro (Downtown East)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3769,
+        "lng": null
+      },
+      "address": "1 Pasir Ris Close, #02-337 E!Avenue, Downtown East, Singapore 519599",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-downtown-east"
+    },
+    {
+      "id": "sg-sky22-novena",
+      "name": "Sky22 (Courtyard Novena)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3206,
+        "lng": null
+      },
+      "address": "99 Irrawaddy Rd, Level 22, Singapore 329568",
+      "cuisine": "Hotel restaurant",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "06:30",
+          "end": "22:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "06:30",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.sky22restaurant.com"
+    },
+    {
+      "id": "sg-wineconn-westgate",
+      "name": "Wine Connection Bistro (Westgate)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3342,
+        "lng": null
+      },
+      "address": "3 Gateway Drive, #01-03 Westgate, Singapore 608532",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-westgate"
+    },
+    {
+      "id": "sg-wineconn-hillv2",
+      "name": "Wine Connection Bistro (HillV2)",
+      "city": "SG",
+      "location": {
+        "lat": 1.3627,
+        "lng": null
+      },
+      "address": "4 HillView Rise, #02-05 HillV2, Singapore 667979",
+      "cuisine": "Wine bistro",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-hillv2"
+    },
+    {
+      "id": "sg-publico-robertson",
+      "name": "Publico Ristorante (Robertson Quay)",
+      "city": "SG",
+      "location": {
+        "lat": 1.29,
+        "lng": null
+      },
+      "address": "1 Nanson Rd, InterContinental Robertson Quay, Singapore 238909",
+      "cuisine": "Italian",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "12:00",
+          "end": "22:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://publico.sg"
+    },
+    {
+      "id": "sg-edge-panpacific",
+      "name": "Edge (Pan Pacific)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2924,
+        "lng": null
+      },
+      "address": "7 Raffles Blvd, Level 3, Marina Square, Singapore 039595",
+      "cuisine": "Buffet",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "06:30",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.panpacific.com/en/hotels-and-resorts/pp-marina/dining/edge.html"
+    },
+    {
+      "id": "sg-alley-on-25",
+      "name": "Alley on 25 (Andaz)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2992,
+        "lng": null
+      },
+      "address": "5 Fraser St, Level 25 Andaz Singapore, Singapore 189354",
+      "cuisine": "Modern Asian",
+      "hours": [
+        {
+          "days": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "07:00",
+          "end": "22:30"
+        },
+        {
+          "days": [
+            0,
+            1,
+            6
+          ],
+          "start": "07:00",
+          "end": "14:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining"
+    },
+    {
+      "id": "sg-5on25",
+      "name": "5 ON 25 (Andaz)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2992,
+        "lng": null
+      },
+      "address": "5 Fraser St, Level 25 Andaz Singapore, Singapore 189354",
+      "cuisine": "Cantonese",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "14:30"
+        },
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining"
+    },
+    {
+      "id": "sg-crossroads-marriott",
+      "name": "Crossroads Cafe (Marriott Tang Plaza)",
+      "city": "SG",
+      "location": {
+        "lat": 1.305,
+        "lng": null
+      },
+      "address": "320 Orchard Rd, Singapore Marriott Tang Plaza, Singapore 238865",
+      "cuisine": "Cafe & bar",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "11:00",
+          "end": "01:30"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.crossroadssg.com"
+    },
+    {
+      "id": "sg-kinki",
+      "name": "Kinki Restaurant + Bar",
+      "city": "SG",
+      "location": {
+        "lat": 1.2825,
+        "lng": null
+      },
+      "address": "70 Collyer Quay, #02-02 Customs House, Singapore 049323",
+      "cuisine": "Japanese & rooftop bar",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "23:00"
+        },
+        {
+          "days": [
+            6
+          ],
+          "start": "11:30",
+          "end": "23:00"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.kinki.com.sg"
+    },
+    {
+      "id": "sg-yoasobi-kanpai",
+      "name": "Yoasobi by Kanpai",
+      "city": "SG",
+      "location": {
+        "lat": 1.2836,
+        "lng": null
+      },
+      "address": "33 Pekin St, #01-01 Far East Square, Singapore 048763",
+      "cuisine": "Japanese & zi char",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:30",
+          "end": "02:00"
+        },
+        {
+          "days": [
+            5
+          ],
+          "start": "11:30",
+          "end": "03:00"
+        },
+        {
+          "days": [
+            6
+          ],
+          "start": "15:00",
+          "end": "03:00"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://kanpaigroup.sg/yoasobi"
+    },
+    {
+      "id": "sg-town-fullerton",
+      "name": "TOWN Restaurant (The Fullerton)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2862,
+        "lng": null
+      },
+      "address": "1 Fullerton Square, The Fullerton Hotel, Singapore 049178",
+      "cuisine": "Buffet & grill",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "06:30",
+          "end": "22:30"
+        },
+        {
+          "days": [
+            0
+          ],
+          "start": "06:30",
+          "end": "10:30"
+        },
+        {
+          "days": [
+            0
+          ],
+          "start": "18:30",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.fullertonhotels.com/fullerton-hotel-singapore"
+    },
+    {
+      "id": "sg-labrasserie-fullertonbay",
+      "name": "La Brasserie (Fullerton Bay)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2832,
+        "lng": null
+      },
+      "address": "80 Collyer Quay, The Fullerton Bay Hotel, Singapore 049326",
+      "cuisine": "French brasserie",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "06:30",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": true,
+      "website": "https://www.fullertonhotels.com/fullerton-bay-hotel-singapore"
+    },
+    {
+      "id": "sg-summer-pavilion",
+      "name": "Summer Pavilion (Ritz-Carlton)",
+      "city": "SG",
+      "location": {
+        "lat": 1.2907,
+        "lng": null
+      },
+      "address": "7 Raffles Ave, Level 3, The Ritz-Carlton Millenia, Singapore 039799",
+      "cuisine": "Cantonese",
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "14:30"
+        },
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "18:30",
+          "end": "22:30"
+        }
+      ],
+      "outdoor": false,
+      "website": "https://www.summerpavilion.com.sg"
+    }
+  ],
+  "deals": [
+    {
+      "id": "d-harrys-hh",
+      "venueId": "sg-harrys-boat-quay",
+      "type": "happy_hour",
+      "title": "Happy hour: 1-for-1 house pours",
+      "description": "Buy-one-get-one on house beer, wine and spirits. Riverside seating.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "15:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://harrys.com.sg",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.7,
+      "discountPct": 50.0
+    },
+    {
+      "id": "d-level33-high-beer",
+      "venueId": "sg-level33",
+      "type": "happy_hour",
+      "title": "Weekday High Beer: S$48++",
+      "description": "Beer flight and sharing bites in the early afternoon, S$48++ per person, on the terrace over Marina Bay.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "14:00",
+          "end": "15:30"
+        }
+      ],
+      "sourceUrl": "https://level33.com.sg/p/weekday-high-beer-at-level33",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 48.0
+    },
+    {
+      "id": "d-level33-set-lunch",
+      "venueId": "sg-level33",
+      "type": "lunch",
+      "title": "Executive set lunch: 2 courses S$48",
+      "description": "Two courses S$48 or three for S$58, weekday lunch only. Add coffee or tea S$4, a 0.3L craft beer S$6. Plus service and GST.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://level33.com.sg/wp-content/uploads/2026/07/A3-Set-Lunch_July-26.pdf",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 48.0
+    },
+    {
+      "id": "d-level33-weekender",
+      "venueId": "sg-level33",
+      "type": "brunch",
+      "title": "Weekender sharing lunch: S$88",
+      "description": "Long sharing lunch at S$88 per guest, weekends only. Optional three-hour free-flow drinks package for another S$88.",
+      "windows": [
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "12:00",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://level33.com.sg/wp-content/uploads/2026/07/A4-Weekender_July26.pdf",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 88.0
+    },
+    {
+      "id": "d-brewerkz-hh",
+      "venueId": "sg-brewerkz-riverside",
+      "type": "happy_hour",
+      "title": "Happy hour: 1-for-1 pints",
+      "description": "Two pints for the price of one on all house brews.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://brewerkz.com",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.7,
+      "discountPct": 50.0
+    },
+    {
+      "id": "d-southbridge-hh",
+      "venueId": "sg-southbridge",
+      "type": "happy_hour",
+      "title": "Happy hour: S$10 draught, S$23 oysters",
+      "description": "Peroni half pints S$10, house spirits from S$12, wines and Prosecco S$16, signature oysters S$23. Monday to Thursday early evening plus all day Sunday. No happy hour Friday or Saturday. Excludes public holidays and their eves.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "17:00",
+          "end": "20:00"
+        },
+        {
+          "days": [
+            0
+          ],
+          "start": "17:00",
+          "end": "00:00"
+        }
+      ],
+      "sourceUrl": "https://www.southbridge.sg/happyhour",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 10.0
+    },
+    {
+      "id": "d-cmcr-weekday-brunch",
+      "venueId": "sg-cmcr-martin",
+      "type": "brunch",
+      "title": "Weekday brunch set: S$22",
+      "description": "Main + coffee weekday set (à la carte equivalent ~S$30). Weekends are full price and queue heavy.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "07:30",
+          "end": "11:30"
+        }
+      ],
+      "sourceUrl": "https://commonmancoffeeroasters.com",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.6,
+      "price": 22.0,
+      "originalPrice": 30.0
+    },
+    {
+      "id": "d-yakun-breakfast-set",
+      "venueId": "sg-yakun-far-east-sq",
+      "type": "breakfast",
+      "title": "Kaya toast breakfast set S$6.80",
+      "description": "Kaya toast, two soft-boiled eggs and kopi/teh. Classic CBD breakfast.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "07:30",
+          "end": "11:00"
+        },
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "08:30",
+          "end": "11:00"
+        }
+      ],
+      "sourceUrl": "https://yakun.com",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.8,
+      "price": 6.8,
+      "originalPrice": 9.2
+    },
+    {
+      "id": "d-wild-honey-weekday",
+      "venueId": "sg-wild-honey-mandarin",
+      "type": "breakfast",
+      "title": "Weekday early-bird breakfast: 15% off",
+      "description": "15% off all-day breakfast plates before 11:00 on weekdays.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "09:00",
+          "end": "11:00"
+        }
+      ],
+      "sourceUrl": "https://wildhoney.com.sg",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.5,
+      "discountPct": 15.0
+    },
+    {
+      "id": "d-tbc-weekend-brunch",
+      "venueId": "sg-tanjong-beach-club",
+      "type": "brunch",
+      "title": "Beach brunch: S$58 two-course + prosecco",
+      "description": "Two courses with a glass of prosecco (à la carte ~S$75). On the sand at Sentosa.",
+      "windows": [
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "10:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://tanjongbeachclub.com",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.6,
+      "price": 58.0,
+      "originalPrice": 75.0
+    },
+    {
+      "id": "d-celavi-ladies-night",
+      "venueId": "sg-ce-la-vi",
+      "type": "late_night",
+      "title": "Ladies Night: free entry and Prosecco",
+      "description": "Complimentary entry and a glass of Prosecco for ladies, Wednesdays late, 57 floors above Marina Bay. Over-18s. Excludes public holidays and special events.",
+      "windows": [
+        {
+          "days": [
+            3
+          ],
+          "start": "22:00",
+          "end": "00:00"
+        }
+      ],
+      "sourceUrl": "https://sg.celavi.com/events/ladies-night",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0
+    },
+    {
+      "id": "d-celavi-liquid-brunch",
+      "venueId": "sg-ce-la-vi",
+      "type": "brunch",
+      "title": "Liquid Brunch: S$168++ free-flow",
+      "description": "Four hours of free-flow Champagne, mimosas, Bloody Marys, Aperol Spritz and beer, S$168++ per person on Sundays. Over-18s.",
+      "windows": [
+        {
+          "days": [
+            0
+          ],
+          "start": "12:00",
+          "end": "16:00"
+        }
+      ],
+      "sourceUrl": "https://sg.celavi.com/events/liquid-brunch",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 168.0
+    },
+    {
+      "id": "d-mr-stork-hh",
+      "venueId": "sg-mr-stork",
+      "type": "happy_hour",
+      "title": "Happier Hour: S$10 beers, S$13 wines",
+      "description": "Beers at S$10 and wines by the glass at S$13 on the teepee rooftop. A separate Blackhour runs 21:00-00:00.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.hyatt.com/content/dam/hotel/propertysites/assets/andaz/sinaz/documents/en_US/dining/mr-stork/Mr-Stork-Happier-Hour.pdf",
+      "lastVerified": "2026-09-10",
+      "confidence": 1.0,
+      "price": 10.0
+    },
+    {
+      "id": "d-lau-pa-sat-satay",
+      "venueId": "sg-lau-pa-sat",
+      "type": "dinner",
+      "title": "Satay Street",
+      "description": "Evening satay stalls take over Boon Tat Street. Roughly S$0.60-1.20 per stick depending on chicken, mutton or prawn; prices and minimum orders vary by stall. Outdoor and weather-dependent.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "19:00",
+          "end": "03:00"
+        },
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "15:00",
+          "end": "03:00"
+        }
+      ],
+      "sourceUrl": "https://www.laupasat.sg/sataystreet/",
+      "lastVerified": "2026-09-10",
+      "confidence": 0.8
+    },
+    {
+      "id": "d-brewerkz-lunch",
+      "venueId": "sg-brewerkz-riverside",
+      "type": "lunch",
+      "title": "Weekday set lunch S$18",
+      "description": "Main + soft drink weekday lunch set (à la carte ~S$26).",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://brewerkz.com",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.5,
+      "price": 18.0,
+      "originalPrice": 26.0
+    },
+    {
+      "id": "d-ott-hh",
+      "venueId": "mo-old-taipa-tavern",
+      "type": "happy_hour",
+      "title": "Happy hour: MOP 35 draught pints",
+      "description": "Draught pints at MOP 35 (usually MOP 55) at the Taipa Village pub.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "15:00",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.facebook.com/oldtaipatavern",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.6,
+      "price": 35.0,
+      "originalPrice": 55.0
+    },
+    {
+      "id": "d-mcsorleys-hh",
+      "venueId": "mo-mcsorleys-venetian",
+      "type": "happy_hour",
+      "title": "Happy hour: 30% off draught beer",
+      "description": "30% off all draught beers.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "17:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.venetianmacao.com/restaurants/mcsorleys-ale-house.html",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.6,
+      "discountPct": 30.0
+    },
+    {
+      "id": "d-sky21-hh",
+      "venueId": "mo-sky21",
+      "type": "happy_hour",
+      "title": "Sunset happy hour: 1-for-1 cocktails",
+      "description": "One-for-one on signature cocktails on the 21st-floor terrace.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "17:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://sky21macau.com",
+      "lastVerified": "2026-09-01",
+      "confidence": 0.6,
+      "discountPct": 50.0
+    },
+    {
+      "id": "d-gingerlily-hh",
+      "venueId": "sg-gingerlily-hilton",
+      "type": "happy_hour",
+      "title": "Happy hour: house pours from S$12",
+      "description": "House wines, beer and classic cocktails from S$12 through the afternoon and early evening. Raclette toastie with wine S$28 per person.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.hilton.com/en/hotels/sinorhi-hilton-singapore-orchard/dining/ginger-lily-bar/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 12.0
+    },
+    {
+      "id": "d-10scotts-hh",
+      "venueId": "sg-10scotts",
+      "type": "happy_hour",
+      "title": "Grand Happy Hour Indulgence: S$55++",
+      "description": "Evening spread at S$55++ per adult, S$25++ for children 6 to 12. Beverage package S$50++, premium S$70++.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "18:30",
+          "end": "21:00"
+        }
+      ],
+      "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/dining",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 55.0
+    },
+    {
+      "id": "d-lantern-skive",
+      "venueId": "sg-lantern-fullerton",
+      "type": "happy_hour",
+      "title": "The Skive Life: S$10++ beer and wine",
+      "description": "House beer and wine S$10++, signature cocktails S$15++, on the rooftop by the infinity pool. Weekdays only, excluding public holidays.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "15:00",
+          "end": "18:00"
+        }
+      ],
+      "sourceUrl": "https://www.fullertonhotels.com/fullerton-bay-hotel-singapore/offers/the-skive-life-at-lantern",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 10.0
+    },
+    {
+      "id": "d-spago-social-hour",
+      "venueId": "sg-spago-mbs",
+      "type": "happy_hour",
+      "title": "Social Hour Tuesdays: 50% off signature cocktail",
+      "description": "Half price on the signature cocktail, Tuesday evenings on the 57th floor of Marina Bay Sands.",
+      "windows": [
+        {
+          "days": [
+            2
+          ],
+          "start": "18:00",
+          "end": "21:00"
+        }
+      ],
+      "sourceUrl": "https://www.marinabaysands.com/restaurants/spago-bar-and-lounge.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "discountPct": 50.0
+    },
+    {
+      "id": "d-wineconn-plq-hh",
+      "venueId": "sg-wineconnection-plq",
+      "type": "happy_hour",
+      "title": "Happy hour: 2 Paulaner for S$20++",
+      "description": "Two Paulaner beers for S$20++, spirits and cocktails from S$9.90++, every day until 7pm.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-plq-2",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 20.0
+    },
+    {
+      "id": "d-wineconn-plq-tea",
+      "venueId": "sg-wineconnection-plq",
+      "type": "brunch",
+      "title": "Afternoon tea: dessert and coffee S$9.90+",
+      "description": "A dessert plus coffee or tea for S$9.90+ on weekday afternoons.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "14:00",
+          "end": "17:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-plq-2",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 9.9
+    },
+    {
+      "id": "d-wineconn-vivo-hh",
+      "venueId": "sg-wineconnection-vivo",
+      "type": "happy_hour",
+      "title": "Weekday happy hour: 2 Paulaner for S$20++",
+      "description": "Two Paulaner beers for S$20++, spirits and cocktails from S$9.90++, weekdays until 7pm.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "11:00",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-vivocity",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 20.0
+    },
+    {
+      "id": "d-otto-set-lunch",
+      "venueId": "sg-otto-maxwell",
+      "type": "lunch",
+      "title": "Italian set lunch: S$42",
+      "description": "Appetiser, main and dessert with coffee or tea, S$42. Weekday lunch service only.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://www.ottoristorante.com.sg/set-lunch/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 42.0
+    },
+    {
+      "id": "d-fortuna-set-lunch",
+      "venueId": "sg-fortuna-craig",
+      "type": "lunch",
+      "title": "Italian set lunch from S$39.90",
+      "description": "Drink, snack, antipasto, a pasta, pizza or main, and dessert, from S$39.90 per person. Weekdays only.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://fortunadrinkeat.sg/italian-set-lunch/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 39.9
+    },
+    {
+      "id": "d-sushi-yujo-lunch",
+      "venueId": "sg-sushi-yujo",
+      "type": "lunch",
+      "title": "Lunch omakase from S$68",
+      "description": "Lunch omakase sets from S$68, against dinner omakase starting at S$148. Wagyu don set from S$48.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.sushiyujo.sg/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 68.0
+    },
+    {
+      "id": "d-novotel-sunday-brunch",
+      "venueId": "sg-novotel-stevens",
+      "type": "brunch",
+      "title": "Sunday brunch: S$138 for two",
+      "description": "S$88 per diner, or S$138 for two, S$28 per child. Bottomless alcohol adds S$68. Includes infinity pool access.",
+      "windows": [
+        {
+          "days": [
+            0
+          ],
+          "start": "12:30",
+          "end": "15:30"
+        }
+      ],
+      "sourceUrl": "https://www.novotel-singapore-stevens.com/offers/sunday-brunch-at-stevens/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 69.0,
+      "originalPrice": 88.0
+    },
+    {
+      "id": "d-cafe2000-brunch",
+      "venueId": "sg-cafe2000-mhotel",
+      "type": "brunch",
+      "title": "Weekend brunch buffet: second diner half price",
+      "description": "S$46++ per adult with 50% off the second diner. Weekends only.",
+      "windows": [
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "11:00",
+          "end": "14:00"
+        }
+      ],
+      "sourceUrl": "https://www.millenniumhotels.com/en/offers/asia/m-hotel-singapore/dining/cafe-2000/weekend-brunch-buffet-madness/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 34.5,
+      "originalPrice": 46.0
+    },
+    {
+      "id": "d-foodcapital-brunch",
+      "venueId": "sg-foodcapital-copthorne",
+      "type": "brunch",
+      "title": "Epicure Sunday brunch: S$118++",
+      "description": "Eighteen stations, S$118++ per adult with free-flow soft drinks, S$59++ per child. Premium package with champagne S$178++.",
+      "windows": [
+        {
+          "days": [
+            0
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.millenniumhotels.com/en/offers/asia/grand-copthorne-waterfront/dining/brunch-at-grand-copthorne-waterfront/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 118.0
+    },
+    {
+      "id": "d-le-buffet-dinner",
+      "venueId": "mo-le-buffet-parisian",
+      "type": "dinner",
+      "title": "Dinner buffet: MOP 698",
+      "description": "MOP 698 per adult, MOP 388 per child aged 4 to 11, plus 10% service. Under fours eat free.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.parisianmacao.com/restaurants/le-buffet.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 698.0
+    },
+    {
+      "id": "d-churchills-tea",
+      "venueId": "mo-churchills-londoner",
+      "type": "brunch",
+      "title": "Mad Hatter afternoon tea for two: MOP 558+",
+      "description": "Afternoon tea for two at MOP 558 plus service. The window shifts earlier from Friday to Sunday.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "15:00",
+          "end": "18:00"
+        },
+        {
+          "days": [
+            0,
+            5,
+            6
+          ],
+          "start": "14:30",
+          "end": "17:00"
+        }
+      ],
+      "sourceUrl": "https://www.londonermacao.com/macau-restaurants/churchills-table.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 558.0
+    },
+    {
+      "id": "d-hiro-ramen-lunch",
+      "venueId": "mo-hiro-ramen-venetian",
+      "type": "lunch",
+      "title": "Ramen set lunch: MOP 200",
+      "description": "Ramen, dessert and a soft drink for MOP 200 plus 10% service. Closed Mondays.",
+      "windows": [
+        {
+          "days": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.venetianmacao.com/restaurants/hiro-ramen.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 200.0
+    },
+    {
+      "id": "d-jiangnan-lunch",
+      "venueId": "mo-jiangnan-venetian",
+      "type": "lunch",
+      "title": "Tasting lunch set: MOP 558",
+      "description": "Jereme Leung tasting lunch at MOP 558 per person plus 10% service. Closed Tuesdays.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.venetianmacao.com/restaurants/jiang-nan.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 558.0
+    },
+    {
+      "id": "d-grand-buffet-lunch",
+      "venueId": "mo-grand-buffet-glp",
+      "type": "lunch",
+      "title": "Weekday lunch buffet: MOP 358",
+      "description": "MOP 358 per adult on weekdays against MOP 408 at weekends, MOP 179 per child, plus 10% service.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.grandlisboapalace.com/en/restaurants-n-bars/the-grand-buffet",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 358.0,
+      "originalPrice": 408.0
+    },
+    {
+      "id": "d-spotlight-lunch",
+      "venueId": "mo-spotlight-studiocity",
+      "type": "lunch",
+      "title": "Lunch buffet: MOP 358+",
+      "description": "MOP 358+ per adult and MOP 188+ per child aged 6 to 12, against MOP 628+ at dinner. Macau residents get 20% off the seafood and BBQ buffet with ID.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.studiocity-macau.com/en/dining/spotlight",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 358.0,
+      "originalPrice": 628.0
+    },
+    {
+      "id": "d-xanadu-hh",
+      "venueId": "mo-xanadu-sands",
+      "type": "happy_hour",
+      "title": "Happy hour: buy one get one",
+      "description": "Buy one get one on drinks in the early evening. Prices are not published; the drinks menu is available at the venue.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "17:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.sandsmacao.com/dining/xanadu-lounge.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 0.9,
+      "discountPct": 50.0
+    },
+    {
+      "id": "d-360-cafe-autumn",
+      "venueId": "mo-360-cafe",
+      "type": "dinner",
+      "title": "20% off revolving dinner buffet",
+      "description": "Autumn promotion: MOP 511.20 per adult including service, against the usual MOP 568 plus service, 223 metres up. Runs to 31 October, with blackout dates in September and early October.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "18:30",
+          "end": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.macautower.com.mo/en/dining/360-cafe/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 511.2,
+      "originalPrice": 568.0,
+      "validUntil": "2026-10-31"
+    },
+    {
+      "id": "d-royal-bakery-late",
+      "venueId": "mo-royal-bakery",
+      "type": "late_night",
+      "title": "Half price bakery after 8pm",
+      "description": "Everything in the bakery at 50% off from 8pm until close, every night. Plus service charge and tourism tax; some blackout dates apply.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "20:00",
+          "end": "00:00"
+        },
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "20:00",
+          "end": "00:30"
+        }
+      ],
+      "sourceUrl": "https://www.hotelroyal.com.mo/offers/royal-bakery-late-night-50-off-privilege",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "discountPct": 50.0
+    },
+    {
+      "id": "d-sintra-breakfast",
+      "venueId": "mo-sintra-restaurant",
+      "type": "breakfast",
+      "title": "Breakfast buffet: MOP 100",
+      "description": "Chinese and Western breakfast buffet, MOP 100 per adult and MOP 60 per child aged 3 to 12, service included.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "07:00",
+          "end": "10:30"
+        }
+      ],
+      "sourceUrl": "https://www.hotelsintra.com/promotions.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 100.0
+    },
+    {
+      "id": "d-baba-chews-breakfast",
+      "venueId": "sg-baba-chews",
+      "type": "breakfast",
+      "title": "Breakfast buffet: S$35++",
+      "description": "Peranakan and Western breakfast buffet, S$35++ per adult and S$17.50++ per child aged 7 to 12. Under-sixes eat free.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "06:30",
+          "end": "10:30"
+        }
+      ],
+      "sourceUrl": "https://babachews.com.sg/promotion/baba-chews-breakfast-buffet/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 35.0
+    },
+    {
+      "id": "d-baba-chews-hh",
+      "venueId": "sg-baba-chews",
+      "type": "happy_hour",
+      "title": "Happy hour: S$12++ pints, noon to 9pm",
+      "description": "Stella Artois, Hoegaarden and Little Creatures Pale Ale pints at S$12++ each, nine hours a day, every day.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "21:00"
+        }
+      ],
+      "sourceUrl": "https://babachews.com.sg/promotion/happy-hour/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 12.0
+    },
+    {
+      "id": "d-wineconn-i12-hh",
+      "venueId": "sg-wineconn-i12",
+      "type": "happy_hour",
+      "title": "Weekday happy hour: 2 Paulaner for S$20++",
+      "description": "Two Paulaner beers for S$20++, spirits and cocktails from S$9.90++, weekdays until 7pm.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "11:30",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-i12-katong",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 20.0
+    },
+    {
+      "id": "d-malthouse-hh",
+      "venueId": "sg-malthouse-siglap",
+      "type": "happy_hour",
+      "title": "S$10 craft pints until 8pm",
+      "description": "Selected craft beers at S$10 a pint, every day until 8pm. The bar opens at 5pm on weekdays, so the window is shorter early in the week.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "17:00",
+          "end": "20:00"
+        },
+        {
+          "days": [
+            5
+          ],
+          "start": "16:00",
+          "end": "20:00"
+        },
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "12:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.malthouse.sg/blog/craft-beer-siglap-happy-hour-deals",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 10.0
+    },
+    {
+      "id": "d-wineconn-tampines-hh",
+      "venueId": "sg-wineconn-tampines",
+      "type": "happy_hour",
+      "title": "All-day happy hour: 2 Paulaner for S$20++",
+      "description": "Two Paulaner beers for S$20++, spirits and cocktails from S$9.90++, from opening until 7pm every day.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-tampines-1",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 20.0
+    },
+    {
+      "id": "d-wineconn-ntp-hh",
+      "venueId": "sg-wineconn-ntp",
+      "type": "happy_hour",
+      "title": "Weekday happy hour: 2 Paulaner for S$20++",
+      "description": "Two Paulaner beers for S$20++, spirits and cocktails from S$9.90++, weekdays until 7pm.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "11:30",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-new-tech-park",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 20.0
+    },
+    {
+      "id": "d-wineconn-de-lunch",
+      "venueId": "sg-wineconn-downtowneast",
+      "type": "lunch",
+      "title": "Weekday lunch from S$10.90+",
+      "description": "Lunch mains from S$10.90+ on weekdays until 3pm. The same outlet runs happy hour until 7pm daily.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "11:30",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-downtown-east",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 10.9
+    },
+    {
+      "id": "d-sky22-lunch",
+      "venueId": "sg-sky22-novena",
+      "type": "lunch",
+      "title": "Semi-buffet lunch: S$29.50++",
+      "description": "Semi-buffet lunch at S$29.50++ per person, Monday to Saturday, twenty-two floors up.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://www.sky22restaurant.com/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 29.5
+    },
+    {
+      "id": "d-sky22-hoegaarden",
+      "venueId": "sg-sky22-novena",
+      "type": "happy_hour",
+      "title": "S$6++ Hoegaarden draught, all day",
+      "description": "Hoegaarden draught at S$6++ from noon until closing, every day.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.sky22restaurant.com/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 6.0
+    },
+    {
+      "id": "d-wineconn-westgate-hh",
+      "venueId": "sg-wineconn-westgate",
+      "type": "happy_hour",
+      "title": "All-day happy hour: 2 Paulaner for S$20++",
+      "description": "Two Paulaner beers for S$20++, spirits and cocktails from S$9.90++, from opening until 7pm every day.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-westgate",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 20.0
+    },
+    {
+      "id": "d-wineconn-westgate-lunch",
+      "venueId": "sg-wineconn-westgate",
+      "type": "lunch",
+      "title": "Weekday lunch from S$10.90+",
+      "description": "Lunch mains from S$10.90+ on weekdays until 3pm.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "11:30",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-westgate",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 10.9
+    },
+    {
+      "id": "d-wineconn-hillv2-hh",
+      "venueId": "sg-wineconn-hillv2",
+      "type": "happy_hour",
+      "title": "All-day happy hour: 2 Paulaner for S$20++",
+      "description": "Two Paulaner beers for S$20++, spirits and cocktails from S$9.90++, from opening until 7pm every day.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "19:00"
+        }
+      ],
+      "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-hillv2",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 20.0
+    },
+    {
+      "id": "d-publico-set-lunch",
+      "venueId": "sg-publico-robertson",
+      "type": "lunch",
+      "title": "Italian set lunch: 2 courses S$32++",
+      "description": "Two courses for S$32++ or three for S$38++, weekdays by the river. Excludes public holidays and blackout dates.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://publico.sg/whats-on/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 32.0
+    },
+    {
+      "id": "d-novotel-aperitif-hh",
+      "venueId": "sg-novotel-stevens",
+      "type": "happy_hour",
+      "title": "Free-flow happy hour at L'Aperitif",
+      "description": "Two to three hours of free-flow beer, wine and spirits: S$48 per person for men, S$38 for ladies, as the hotel publishes it. Last orders 7.30pm.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "17:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.novotel-singapore-stevens.com/offers/happy-hour-stevens/",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 38.0
+    },
+    {
+      "id": "d-foodcapital-semibuffet",
+      "venueId": "sg-foodcapital-copthorne",
+      "type": "dinner",
+      "title": "Semi-buffet dinner: S$68++",
+      "description": "Semi-buffet dinner at S$68++ from Friday to Sunday. Add S$4++ per person for free-flow barley, water chestnut or soft drinks.",
+      "windows": [
+        {
+          "days": [
+            0,
+            5,
+            6
+          ],
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.millenniumhotels.com/en/offers/asia/grand-copthorne-waterfront/dining/food-capital/semi-buffet-at-food-capital",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 68.0
+    },
+    {
+      "id": "d-lantern-ladies-night",
+      "venueId": "sg-lantern-fullerton",
+      "type": "happy_hour",
+      "title": "Ladies Night: 2 hours free-flow from S$58++",
+      "description": "Two hours of free-flow drinks for ladies from S$58++, Tuesday evenings on the rooftop by the infinity pool.",
+      "windows": [
+        {
+          "days": [
+            2
+          ],
+          "start": "19:00",
+          "end": "21:00"
+        }
+      ],
+      "sourceUrl": "https://www.fullertonhotels.com/fullerton-bay-hotel-singapore/dining/restaurants-and-bars/lantern",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 58.0
+    },
+    {
+      "id": "d-edge-lunch-buffet",
+      "venueId": "sg-edge-panpacific",
+      "type": "lunch",
+      "title": "Anniversary lunch buffet: S$40++",
+      "description": "Weekday lunch buffet at S$40++ per person against a usual price of up to S$72++. Minimum four diners, first forty guests per service. Runs to 15 November.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "12:00",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://www.panpacific.com/en/hotels-and-resorts/pp-marina/dining/edge.html",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 40.0,
+      "originalPrice": 72.0,
+      "validUntil": "2026-11-15"
+    },
+    {
+      "id": "d-alley25-midweek-melt",
+      "venueId": "sg-alley-on-25",
+      "type": "dinner",
+      "title": "Mid Week Melt: S$45",
+      "description": "Wednesday evening set at S$45 per person, twenty-five floors above Bugis.",
+      "windows": [
+        {
+          "days": [
+            3
+          ],
+          "start": "18:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 45.0
+    },
+    {
+      "id": "d-5on25-dimsum",
+      "venueId": "sg-5on25",
+      "type": "lunch",
+      "title": "Weekday dim sum garden set: S$68",
+      "description": "Dim sum set at S$68 per person on weekdays, minimum two people. Served within the lunch sitting.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "11:30",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 68.0
+    },
+    {
+      "id": "d-5on25-yumcha",
+      "venueId": "sg-5on25",
+      "type": "brunch",
+      "title": "Weekend yum cha: S$68",
+      "description": "Weekend yum cha at S$68 per person, minimum two people. Served within the lunch sitting.",
+      "windows": [
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "11:30",
+          "end": "14:30"
+        }
+      ],
+      "sourceUrl": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 68.0
+    },
+    {
+      "id": "d-crossroads-hh",
+      "venueId": "sg-crossroads-marriott",
+      "type": "happy_hour",
+      "title": "Longest Happy Hour: S$14++, 11am to 8pm",
+      "description": "Nine hours of happy hour at S$14++, Monday to Thursday, on the Orchard Road terrace.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start": "11:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.crossroadssg.com/promotions",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 14.0
+    },
+    {
+      "id": "d-kinki-hh",
+      "venueId": "sg-kinki",
+      "type": "happy_hour",
+      "title": "Super Happy Hour: drinks duo S$23++",
+      "description": "Two drinks for S$23++, draught beer duo S$26++, cocktails 20% off, or two hours free-flow at S$48++ per person. Rooftop over Marina Bay.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "17:00",
+          "end": "20:00"
+        },
+        {
+          "days": [
+            6
+          ],
+          "start": "16:00",
+          "end": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.kinki.com.sg/promotions/super-happy-hour",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 23.0
+    },
+    {
+      "id": "d-kinki-brunch",
+      "venueId": "sg-kinki",
+      "type": "brunch",
+      "title": "Bottomless brunch: S$68++",
+      "description": "Saturday brunch at S$68++ per person, with two hours of free-flow for another S$38++. Seatings at 11.30am and 1.45pm. Under-sixes free, 7 to 11 half price.",
+      "windows": [
+        {
+          "days": [
+            6
+          ],
+          "start": "11:30",
+          "end": "15:00"
+        }
+      ],
+      "sourceUrl": "https://www.kinki.com.sg/promotions/kinki-bottomless-brunch",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 68.0
+    },
+    {
+      "id": "d-yoasobi-lunch",
+      "venueId": "sg-yoasobi-kanpai",
+      "type": "lunch",
+      "title": "Japanese set lunch from S$11.80",
+      "description": "Japanese and zi char set lunches from S$11.80, weekday lunchtimes in Far East Square.",
+      "windows": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "11:30",
+          "end": "13:30"
+        }
+      ],
+      "sourceUrl": "https://kanpaigroup.sg/yoasobi",
+      "lastVerified": "2026-09-11",
+      "confidence": 1.0,
+      "price": 11.8
+    },
+    {
+      "id": "d-summer-pavilion-midautumn",
+      "venueId": "sg-summer-pavilion",
+      "type": "dinner",
+      "title": "Mid-Autumn four-hands dinner: S$268",
+      "description": "Seven-course Mid-Autumn menu at S$268 per person, cooked four-hands with Michelin-starred Jueun of Seoul. One night only.",
+      "windows": [
+        {
+          "days": [
+            3
+          ],
+          "start": "18:30",
+          "end": "22:30"
+        }
+      ],
+      "sourceUrl": "https://www.summerpavilion.com.sg/offers",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "price": 268.0,
+      "validFrom": "2026-09-23",
+      "validUntil": "2026-09-23"
+    },
+    {
+      "id": "d-summer-pavilion-gp",
+      "venueId": "sg-summer-pavilion",
+      "type": "dinner",
+      "title": "Grand Prix dining: from S$288",
+      "description": "Six-course set lunch or dinner from S$288 per person across race weekend. An eight-course menu is also offered.",
+      "windows": [
+        {
+          "days": [
+            0,
+            5,
+            6
+          ],
+          "start": "11:30",
+          "end": "14:30"
+        },
+        {
+          "days": [
+            0,
+            5,
+            6
+          ],
+          "start": "18:30",
+          "end": "22:30"
+        }
+      ],
+      "sourceUrl": "https://www.summerpavilion.com.sg/offers",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "price": 288.0,
+      "validFrom": "2026-10-09",
+      "validUntil": "2026-10-11"
+    },
+    {
+      "id": "d-town-gp-dinner",
+      "venueId": "sg-town-fullerton",
+      "type": "dinner",
+      "title": "Roaring Dinner Feast: S$108",
+      "description": "Race-week dinner buffet at S$108 per adult and S$54 per child, on the waterfront terrace. Friday and Saturday of the Grand Prix only.",
+      "windows": [
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "18:00",
+          "end": "22:30"
+        }
+      ],
+      "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "price": 108.0,
+      "validFrom": "2026-10-09",
+      "validUntil": "2026-10-10"
+    },
+    {
+      "id": "d-town-gp-lunch",
+      "venueId": "sg-town-fullerton",
+      "type": "lunch",
+      "title": "F1 international lunch buffet: S$88",
+      "description": "Race-week lunch buffet at S$88 per adult and S$44 per child, with free-flow juices and soft drinks.",
+      "windows": [
+        {
+          "days": [
+            5,
+            6
+          ],
+          "start": "12:30",
+          "end": "15:30"
+        }
+      ],
+      "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "price": 88.0,
+      "validFrom": "2026-10-09",
+      "validUntil": "2026-10-10"
+    },
+    {
+      "id": "d-labrasserie-gp-brunch",
+      "venueId": "sg-labrasserie-fullertonbay",
+      "type": "brunch",
+      "title": "Winning Formula brunch: S$138",
+      "description": "Race-weekend brunch at S$138 per adult and S$69 per child with juices, S$248 with Veuve Clicquot or S$318 with Ruinart.",
+      "windows": [
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "12:30",
+          "end": "15:30"
+        }
+      ],
+      "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "price": 138.0,
+      "validFrom": "2026-10-10",
+      "validUntil": "2026-10-11"
+    },
+    {
+      "id": "d-labrasserie-gp-lunch",
+      "venueId": "sg-labrasserie-fullertonbay",
+      "type": "lunch",
+      "title": "F1 three-course set lunch: S$68",
+      "description": "Three courses for S$68 per person on the Friday of race weekend.",
+      "windows": [
+        {
+          "days": [
+            5
+          ],
+          "start": "12:30",
+          "end": "15:30"
+        }
+      ],
+      "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "price": 68.0,
+      "validFrom": "2026-10-09",
+      "validUntil": "2026-10-09"
+    },
+    {
+      "id": "d-lantern-gp-latenight",
+      "venueId": "sg-lantern-fullerton",
+      "type": "late_night",
+      "title": "Race-night rooftop: S$78",
+      "description": "S$78 per adult including a glass of champagne, house wine, beer or a house spirit, late on race weekend. Tables of four S$488, of six S$788.",
+      "windows": [
+        {
+          "days": [
+            0,
+            6
+          ],
+          "start": "22:00",
+          "end": "00:00"
+        }
+      ],
+      "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "price": 78.0,
+      "validFrom": "2026-10-10",
+      "validUntil": "2026-10-11"
+    },
+    {
+      "id": "d-spotlight-resident",
+      "venueId": "mo-spotlight-studiocity",
+      "type": "dinner",
+      "title": "Macau residents: 20% off seafood buffet",
+      "description": "Macau residents get 20% off the seafood buffet on presentation of a resident ID card. Dinner MOP 628+ per adult, MOP 318+ per child aged 6 to 12.",
+      "windows": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.studiocity-macau.com/en/offers/20-seafood-buffet-macau-residents",
+      "lastVerified": "2026-09-16",
+      "confidence": 1.0,
+      "discountPct": 20.0,
+      "validUntil": "2026-12-31"
+    }
+  ]
+}

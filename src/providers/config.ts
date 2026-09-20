@@ -6,6 +6,13 @@ export const GOOGLE_MAPS_KEY: string = (process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY 
 
 export const hasGoogleKey = () => GOOGLE_MAPS_KEY.length > 0;
 
+/**
+ * Hosted deal catalogue. Leave unset to run purely on the bundled seed.
+ * Any https URL returning the feed JSON will do - a file in a public repo
+ * is enough; no server is required.
+ */
+export const DEALS_FEED_URL: string = (process.env.EXPO_PUBLIC_DEALS_FEED_URL ?? '').trim();
+
 export const TIMEOUT_MS = 8000;
 
 export async function fetchJson<T>(url: string, init: RequestInit = {}): Promise<T> {

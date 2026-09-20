@@ -24,6 +24,7 @@ export default function Home() {
           {feed.city.name} · {feed.originSource === 'device' ? 'your location' : `${feed.city.name} centre (demo)`}
           {feed.liveHours ? ' · live hours' : ' · seed hours'}
           {feed.liveRoutes ? ' · Google travel times' : ' · estimated travel'}
+          {feed.dataSource === 'remote' ? ' · live deal feed' : ' · bundled deals'}
         </Text>
       </View>
 

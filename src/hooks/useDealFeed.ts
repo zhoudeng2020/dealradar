@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { CityCode, CityInfo, DealType, LatLng, RankedDeal, TravelMode, WeatherNow } from '@/types';
 import { CITIES, nearestCity } from '@/data/cities';
-import { DEALS, VENUES } from '@/data/seed';
+import { loadCatalogue, type LoadedCatalogue } from '@/data/feed';
 import { rankDeal, sortRanked } from '@/engine/ranking';
 import { getTravelTimes } from '@/providers/routes';
 import { getOpeningStatuses } from '@/providers/places';
@@ -30,6 +30,12 @@ export interface FeedResult {
   deals: RankedDeal[];
   liveHours: boolean;
   liveRoutes: boolean;
+  /** Whether the catalogue came from the hosted feed or the bundled seed. */
+  dataSource: LoadedCatalogue['source'];
+  /** When the hosted feed was generated, if it was used. */
+  dataGeneratedAt?: string;
+  /** Why the hosted feed was not used, when it was tried and rejected. */
+  dataFallbackReason?: string;
   /** The effective "now" the feed was ranked against (real or simulated). */
   now: Date;
   updatedAt?: Date;
@@ -47,7 +53,12 @@ export function useDealFeed(opts: FeedOptions): FeedResult {
   const [liveHours, setLiveHours] = useState(false);
   const [updatedAt, setUpdatedAt] = useState<Date>();
   const [rankedAt, setRankedAt] = useState<Date>(() => opts.simulatedNow ?? new Date());
+  const [catalogue, setCatalogue] = useState<Pick<LoadedCatalogue, 'source' | 'generatedAt' | 'fallbackReason'>>(
+    { source: 'bundled' },
+  );
   const run = useRef(0);
+  // Set by refresh() so pull-to-refresh re-fetches rather than reusing the session cache.
+  const forceReload = useRef(false);
 
   // Resolve city + origin.
   const { city, origin, originSource } = useMemo(() => {
@@ -71,14 +82,17 @@ export function useDealFeed(opts: FeedOptions): FeedResult {
 
     (async () => {
       const now = opts.simulatedNow ?? new Date();
-      const venues = VENUES.filter((v) => v.city === city.code);
+      const force = forceReload.current;
+      forceReload.current = false;
+      const cat = await loadCatalogue(force);
+      const venues = cat.venues.filter((v) => v.city === city.code);
       const venueIdx = new Map(venues.map((v, i) => [v.id, i]));
       // Compare as local calendar dates, so a deal runs for the whole of its first
       // and last day. Date objects would parse the ISO date as UTC midnight and cut
       // eight hours off each end in SGT/MOT.
       const pad = (n: number) => `${n}`.padStart(2, '0');
       const today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
-      const candidates = DEALS.filter(
+      const candidates = cat.deals.filter(
         (d) =>
           venueIdx.has(d.venueId) &&
           (opts.types.length === 0 || opts.types.includes(d.type)) &&
@@ -103,6 +117,7 @@ export function useDealFeed(opts: FeedOptions): FeedResult {
         });
       });
 
+      setCatalogue({ source: cat.source, generatedAt: cat.generatedAt, fallbackReason: cat.fallbackReason });
       setWeather(w);
       setRankedAt(now);
       setDeals(sortRanked(ranked));
@@ -118,6 +133,7 @@ export function useDealFeed(opts: FeedOptions): FeedResult {
   }, [loc.status, city.code, origin.lat, origin.lng, opts.mode, typesKey, nowMs, opts.horizonMin, tick]);
 
   const refresh = useCallback(() => {
+    forceReload.current = true;
     loc.refresh();
     setTick((t) => t + 1);
   }, [loc.refresh]);
@@ -132,6 +148,9 @@ export function useDealFeed(opts: FeedOptions): FeedResult {
     deals,
     liveHours: liveHours && hasGoogleKey(),
     liveRoutes,
+    dataSource: catalogue.source,
+    dataGeneratedAt: catalogue.generatedAt,
+    dataFallbackReason: catalogue.fallbackReason,
     now: rankedAt,
     updatedAt,
     refresh,

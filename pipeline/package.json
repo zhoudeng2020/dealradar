@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "extract": "tsx extract-deals.ts"
+    "extract": "tsx extract-deals.ts",
+    "refresh": "tsx refresh.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.60.0",

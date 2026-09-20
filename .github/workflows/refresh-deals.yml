@@ -1,0 +1,56 @@
+# Weekly freshness check on the published deal catalogue.
+#
+# This job only ever CONFIRMS what is already recorded: it re-reads each deal's
+# source page and checks the record still holds. It does not invent deals, and
+# it does not delete them. Anything it can no longer confirm is reported for a
+# human to judge, because a quote can vanish from a page for boring reasons
+# (a restyle, a moved section) as easily as because the offer ended.
+#
+# Discovery — finding NEW deals — is deliberately not run here. That path
+# generates records, and unreviewed generated records are what once filled this
+# dataset with venues that had been closed for years. Run it by hand:
+#   cd pipeline && npm run extract
+name: Refresh deal catalogue
+
+on:
+  schedule:
+    - cron: '0 1 * * 1' # Mondays 01:00 UTC — 09:00 Singapore
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install pipeline dependencies
+        working-directory: pipeline
+        run: npm ci || npm install
+
+      - name: Re-verify every deal against its source page
+        working-directory: pipeline
+        run: npm run refresh -- --verify
+
+      - name: Apply confirmed verification dates
+        run: |
+          if [ -f pipeline/out/verified-feed.json ]; then
+            cp pipeline/out/verified-feed.json feed/deals.json
+          fi
+
+      - name: Open a pull request with the findings
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/deal-refresh
+          title: 'Weekly deal catalogue refresh'
+          commit-message: 'Refresh deal catalogue: re-verify against source pages'
+          body-path: pipeline/out/verify-report.md
+          labels: data
+          delete-branch: true

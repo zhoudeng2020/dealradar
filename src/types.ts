@@ -72,6 +72,13 @@ export interface Deal {
   /** ISO date after which the deal should not be shown. Inclusive of that day. */
   validUntil?: string;
   sourceUrl: string;
+  /**
+   * Verbatim snippet from sourceUrl that this record was built from.
+   * Lets the refresh job confirm a deal still holds without a human, and
+   * makes an unsourceable claim obvious. Required for anything the
+   * extraction pipeline produces.
+   */
+  evidence?: string;
   /** ISO date the deal was last checked by a human or the extraction pipeline. */
   lastVerified: string;
   /** 0–1. Curated = 1.0, AI-extracted unverified = ~0.6. */
