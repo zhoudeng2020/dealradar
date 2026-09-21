@@ -7,11 +7,21 @@ export const GOOGLE_MAPS_KEY: string = (process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY 
 export const hasGoogleKey = () => GOOGLE_MAPS_KEY.length > 0;
 
 /**
- * Hosted deal catalogue. Leave unset to run purely on the bundled seed.
- * Any https URL returning the feed JSON will do - a file in a public repo
- * is enough; no server is required.
+ * Hosted deal catalogue.
+ *
+ * Defaulted rather than env-only on purpose: the URL is public, it is the same
+ * for every build, and an EXPO_PUBLIC_* var is inlined at bundle time - so a
+ * build made on EAS, where .env is not uploaded, would silently ship with no
+ * feed and quietly run on the bundled seed forever. A default cannot go missing.
+ *
+ * Set EXPO_PUBLIC_DEALS_FEED_URL to point a build at a different feed (a staging
+ * copy, a fork), or to the empty string to pin a build to the bundled seed.
  */
-export const DEALS_FEED_URL: string = (process.env.EXPO_PUBLIC_DEALS_FEED_URL ?? '').trim();
+const DEFAULT_DEALS_FEED_URL = 'https://zhoudeng2020.github.io/dealradar/feed/deals.json';
+
+export const DEALS_FEED_URL: string = (
+  process.env.EXPO_PUBLIC_DEALS_FEED_URL ?? DEFAULT_DEALS_FEED_URL
+).trim();
 
 export const TIMEOUT_MS = 8000;
 
