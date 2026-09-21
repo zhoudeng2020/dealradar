@@ -1,4 +1,4 @@
-// Core domain types for DealRadar.
+// Core domain types for EatRadar.
 
 export type CityCode = 'SG' | 'MO';
 

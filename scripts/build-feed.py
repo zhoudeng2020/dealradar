@@ -44,7 +44,9 @@ def s_field(block, key, consts):
 
 
 def n_field(block, key):
-    m = re.search(rf'\b{key}: (-?[\d.]+),', block)
+    # Trailing delimiter may be ',' or '}': in `location: { lat: 1.28, lng: 103.85 }`
+    # the last value has no comma. Requiring one silently nulled every longitude.
+    m = re.search(rf'\b{key}: (-?[\d.]+)\s*[,}}\n]', block)
     return float(m.group(1)) if m else None
 
 
@@ -127,12 +129,25 @@ def span(w):
     s_, e_ = to_min(w['start']), to_min(w['end'])
     return (s_, e_ + 1440 if e_ <= s_ else e_)
 
+CITY_BOX = {'SG': (1.2, 1.5, 103.6, 104.1), 'MO': (22.1, 22.25, 113.5, 113.65)}
+
 for v in venues:
     for k, val in v.items():
         if val is None:
             errors.append(f"{v['id']}: missing {k}")
     if not v['hours']:
         errors.append(f"{v['id']}: no hours")
+    # Nested values need checking explicitly. A dict is never None, so the loop
+    # above passed 57 venues whose longitude was None - which the app then
+    # rejected wholesale, falling back to the bundled seed with no visible error.
+    box = CITY_BOX.get(v['city'])
+    lat, lng = v['location']['lat'], v['location']['lng']
+    if box is None:
+        errors.append(f"{v['id']}: unknown city {v['city']}")
+    elif lat is None or lng is None:
+        errors.append(f"{v['id']}: location lat={lat} lng={lng}")
+    elif not (box[0] < lat < box[1] and box[2] < lng < box[3]):
+        errors.append(f"{v['id']}: {lat},{lng} outside {v['city']}")
 for d in deals:
     if d['venueId'] not in by_id:
         errors.append(f"{d['id']}: unknown venue {d['venueId']}"); continue

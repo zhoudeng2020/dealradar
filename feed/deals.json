@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-20T08:17:00+00:00",
+  "generatedAt": "2026-09-21T02:24:59+00:00",
   "venues": [
     {
       "id": "sg-harrys-boat-quay",
@@ -8,7 +8,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2871,
-        "lng": null
+        "lng": 103.8497
       },
       "address": "28 Boat Quay, Singapore 049818",
       "cuisine": "Bar & grill",
@@ -42,7 +42,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2797,
-        "lng": null
+        "lng": 103.8535
       },
       "address": "8 Marina Blvd, #33-01 MBFC Tower 1, Singapore 018981",
       "cuisine": "Craft brewery & restaurant",
@@ -70,7 +70,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2895,
-        "lng": null
+        "lng": 103.8455
       },
       "address": "30 Merchant Rd, #01-07 Riverside Point, Singapore 058282",
       "cuisine": "Microbrewery",
@@ -98,7 +98,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2871,
-        "lng": null
+        "lng": 103.8508
       },
       "address": "80 Boat Quay, Rooftop Level 5, Singapore 049868",
       "cuisine": "Rooftop bar",
@@ -126,7 +126,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2914,
-        "lng": null
+        "lng": 103.839
       },
       "address": "22 Martin Rd, #01-00, Singapore 239058",
       "cuisine": "Café / brunch",
@@ -154,7 +154,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2833,
-        "lng": null
+        "lng": 103.8494
       },
       "address": "18 China St, #01-01 Far East Square, Singapore 049560",
       "cuisine": "Kopitiam breakfast",
@@ -188,7 +188,7 @@
       "city": "SG",
       "location": {
         "lat": 1.302,
-        "lng": null
+        "lng": 103.8365
       },
       "address": "333A Orchard Rd, #03-01 Mandarin Gallery, Singapore 238897",
       "cuisine": "All-day breakfast",
@@ -222,7 +222,7 @@
       "city": "SG",
       "location": {
         "lat": 1.244,
-        "lng": null
+        "lng": 103.829
       },
       "address": "120 Tanjong Beach Walk, Sentosa, Singapore 098942",
       "cuisine": "Beach club",
@@ -262,7 +262,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2834,
-        "lng": null
+        "lng": 103.8607
       },
       "address": "1 Bayfront Ave, Marina Bay Sands Tower 3, Level 57, Singapore 018971",
       "cuisine": "Rooftop bar",
@@ -290,7 +290,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2988,
-        "lng": null
+        "lng": 103.8583
       },
       "address": "5 Fraser St, Level 39 Andaz Singapore, Singapore 189354",
       "cuisine": "Rooftop bar",
@@ -324,7 +324,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2805,
-        "lng": null
+        "lng": 103.8504
       },
       "address": "18 Raffles Quay, Singapore 048582",
       "cuisine": "Hawker centre",
@@ -352,7 +352,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1877,
-        "lng": null
+        "lng": 113.5546
       },
       "address": "Avenida Dr. Sun Yat Sen, NAPE, Macau",
       "cuisine": "Hotel bar",
@@ -386,7 +386,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1555,
-        "lng": null
+        "lng": 113.5565
       },
       "address": "21 Rua dos Negociantes, Taipa Village, Macau",
       "cuisine": "Pub",
@@ -419,7 +419,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1465,
-        "lng": null
+        "lng": 113.5622
       },
       "address": "Shop 1038, Grand Canal Shoppes, The Venetian Macao, Cotai",
       "cuisine": "Irish pub",
@@ -447,7 +447,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1937,
-        "lng": null
+        "lng": 113.5406
       },
       "address": "12 Travessa de S. Domingos, Macau",
       "cuisine": "Portuguese café",
@@ -474,7 +474,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1898,
-        "lng": null
+        "lng": 113.5497
       },
       "address": "AIA Tower, 21/F, 251A-301 Avenida Comercial de Macau",
       "cuisine": "Rooftop bar",
@@ -514,7 +514,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3021,
-        "lng": null
+        "lng": 103.8363
       },
       "address": "333 Orchard Rd, Hilton Singapore Orchard, Singapore 238867",
       "cuisine": "Hotel bar",
@@ -542,7 +542,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3064,
-        "lng": null
+        "lng": 103.8333
       },
       "address": "10 Scotts Rd, Grand Hyatt Singapore, Singapore 228211",
       "cuisine": "Hotel lounge",
@@ -570,7 +570,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2832,
-        "lng": null
+        "lng": 103.8535
       },
       "address": "80 Collyer Quay, The Fullerton Bay Hotel, Singapore 049326",
       "cuisine": "Rooftop bar",
@@ -604,7 +604,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2836,
-        "lng": null
+        "lng": 103.8607
       },
       "address": "Marina Bay Sands Hotel Tower 2, Level 57, Singapore 018956",
       "cuisine": "Rooftop bar",
@@ -632,7 +632,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3177,
-        "lng": null
+        "lng": 103.894
       },
       "address": "1 Paya Lebar Link, #01-07 PLQ 2, Singapore 408533",
       "cuisine": "Wine bistro",
@@ -666,7 +666,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2643,
-        "lng": null
+        "lng": 103.8223
       },
       "address": "1 HarbourFront Walk, #01-152 VivoCity, Singapore 098585",
       "cuisine": "Wine bistro",
@@ -700,7 +700,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2775,
-        "lng": null
+        "lng": 103.8462
       },
       "address": "32 Maxwell Rd, #01-02 Maxwell Chambers, Singapore 069115",
       "cuisine": "Italian",
@@ -733,7 +733,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2777,
-        "lng": null
+        "lng": 103.843
       },
       "address": "7 Craig Rd, Tanjong Pagar, Singapore 089667",
       "cuisine": "Italian",
@@ -767,7 +767,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2749,
-        "lng": null
+        "lng": 103.8435
       },
       "address": "165 Tanjong Pagar Rd, #02-26 Amara Hotel, Singapore 088539",
       "cuisine": "Japanese",
@@ -795,7 +795,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3138,
-        "lng": null
+        "lng": 103.8287
       },
       "address": "28 Stevens Rd, Level 2, Singapore 257878",
       "cuisine": "Buffet",
@@ -823,7 +823,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2737,
-        "lng": null
+        "lng": 103.8451
       },
       "address": "81 Anson Rd, M Hotel Singapore, Singapore 079908",
       "cuisine": "Buffet",
@@ -851,7 +851,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2903,
-        "lng": null
+        "lng": 103.8352
       },
       "address": "392 Havelock Rd, Grand Copthorne Waterfront, Singapore 169663",
       "cuisine": "Buffet",
@@ -879,7 +879,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1437,
-        "lng": null
+        "lng": 113.5617
       },
       "address": "Shop 3100, Level 1, The Parisian Macao, Cotai",
       "cuisine": "Buffet",
@@ -907,7 +907,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1459,
-        "lng": null
+        "lng": 113.5655
       },
       "address": "Level 1, The Londoner Macao, Cotai",
       "cuisine": "British",
@@ -935,7 +935,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1467,
-        "lng": null
+        "lng": 113.5609
       },
       "address": "Shop 1048, Level 1, The Venetian Macao, Cotai",
       "cuisine": "Japanese ramen",
@@ -962,7 +962,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1467,
-        "lng": null
+        "lng": 113.5609
       },
       "address": "Shop 1078, Level 1, The Venetian Macao, Cotai",
       "cuisine": "Chinese",
@@ -1001,7 +1001,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1441,
-        "lng": null
+        "lng": 113.5742
       },
       "address": "Shop 308, Level 3 West, Grand Lisboa Palace, Cotai",
       "cuisine": "Buffet",
@@ -1029,7 +1029,7 @@
       "city": "MO",
       "location": {
         "lat": 22.141,
-        "lng": null
+        "lng": 113.5605
       },
       "address": "Shop 2113, Level 2 East, Studio City Macau, Cotai",
       "cuisine": "Buffet",
@@ -1057,7 +1057,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1916,
-        "lng": null
+        "lng": 113.5548
       },
       "address": "1/F Sands Macao, Largo de Monte Carlo 203, Macau",
       "cuisine": "Hotel bar",
@@ -1091,7 +1091,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1798,
-        "lng": null
+        "lng": 113.5368
       },
       "address": "60/F Macau Tower, Largo da Torre de Macau, Macau",
       "cuisine": "Revolving buffet",
@@ -1119,7 +1119,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1962,
-        "lng": null
+        "lng": 113.5472
       },
       "address": "Estrada da Vitoria 2-4, Hotel Royal Macau, Macau",
       "cuisine": "Bakery",
@@ -1153,7 +1153,7 @@
       "city": "MO",
       "location": {
         "lat": 22.1911,
-        "lng": null
+        "lng": 113.5414
       },
       "address": "Avenida de D. Joao IV 58-62, Hotel Sintra, Macau",
       "cuisine": "Chinese-Western",
@@ -1181,7 +1181,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3051,
-        "lng": null
+        "lng": 103.9043
       },
       "address": "86 East Coast Rd, Katong Square, Singapore 428788",
       "cuisine": "Peranakan bar & eatery",
@@ -1209,7 +1209,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3052,
-        "lng": null
+        "lng": 103.905
       },
       "address": "112 East Coast Rd, #01-10 i12 Katong, Singapore 428802",
       "cuisine": "Wine bistro",
@@ -1243,7 +1243,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3118,
-        "lng": null
+        "lng": 103.9217
       },
       "address": "685 East Coast Rd, Singapore 459054",
       "cuisine": "Craft beer bar",
@@ -1295,7 +1295,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3543,
-        "lng": null
+        "lng": 103.9451
       },
       "address": "10 Tampines Central 1, #01-21 Tampines 1, Singapore 529536",
       "cuisine": "Wine bistro",
@@ -1341,7 +1341,7 @@
       "city": "SG",
       "location": {
         "lat": 1.352,
-        "lng": null
+        "lng": 103.8608
       },
       "address": "151 Lorong Chuan, #01-06 New Tech Park, Singapore 556741",
       "cuisine": "Wine bistro",
@@ -1369,7 +1369,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3769,
-        "lng": null
+        "lng": 103.955
       },
       "address": "1 Pasir Ris Close, #02-337 E!Avenue, Downtown East, Singapore 519599",
       "cuisine": "Wine bistro",
@@ -1397,7 +1397,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3206,
-        "lng": null
+        "lng": 103.8432
       },
       "address": "99 Irrawaddy Rd, Level 22, Singapore 329568",
       "cuisine": "Hotel restaurant",
@@ -1431,7 +1431,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3342,
-        "lng": null
+        "lng": 103.7428
       },
       "address": "3 Gateway Drive, #01-03 Westgate, Singapore 608532",
       "cuisine": "Wine bistro",
@@ -1459,7 +1459,7 @@
       "city": "SG",
       "location": {
         "lat": 1.3627,
-        "lng": null
+        "lng": 103.7642
       },
       "address": "4 HillView Rise, #02-05 HillV2, Singapore 667979",
       "cuisine": "Wine bistro",
@@ -1487,7 +1487,7 @@
       "city": "SG",
       "location": {
         "lat": 1.29,
-        "lng": null
+        "lng": 103.8386
       },
       "address": "1 Nanson Rd, InterContinental Robertson Quay, Singapore 238909",
       "cuisine": "Italian",
@@ -1521,7 +1521,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2924,
-        "lng": null
+        "lng": 103.8588
       },
       "address": "7 Raffles Blvd, Level 3, Marina Square, Singapore 039595",
       "cuisine": "Buffet",
@@ -1549,7 +1549,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2992,
-        "lng": null
+        "lng": 103.8579
       },
       "address": "5 Fraser St, Level 25 Andaz Singapore, Singapore 189354",
       "cuisine": "Modern Asian",
@@ -1583,7 +1583,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2992,
-        "lng": null
+        "lng": 103.8579
       },
       "address": "5 Fraser St, Level 25 Andaz Singapore, Singapore 189354",
       "cuisine": "Cantonese",
@@ -1624,7 +1624,7 @@
       "city": "SG",
       "location": {
         "lat": 1.305,
-        "lng": null
+        "lng": 103.833
       },
       "address": "320 Orchard Rd, Singapore Marriott Tang Plaza, Singapore 238865",
       "cuisine": "Cafe & bar",
@@ -1658,7 +1658,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2825,
-        "lng": null
+        "lng": 103.8535
       },
       "address": "70 Collyer Quay, #02-02 Customs House, Singapore 049323",
       "cuisine": "Japanese & rooftop bar",
@@ -1691,7 +1691,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2836,
-        "lng": null
+        "lng": 103.8483
       },
       "address": "33 Pekin St, #01-01 Far East Square, Singapore 048763",
       "cuisine": "Japanese & zi char",
@@ -1730,7 +1730,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2862,
-        "lng": null
+        "lng": 103.853
       },
       "address": "1 Fullerton Square, The Fullerton Hotel, Singapore 049178",
       "cuisine": "Buffet & grill",
@@ -1771,7 +1771,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2832,
-        "lng": null
+        "lng": 103.8535
       },
       "address": "80 Collyer Quay, The Fullerton Bay Hotel, Singapore 049326",
       "cuisine": "French brasserie",
@@ -1799,7 +1799,7 @@
       "city": "SG",
       "location": {
         "lat": 1.2907,
-        "lng": null
+        "lng": 103.8601
       },
       "address": "7 Raffles Ave, Level 3, The Ritz-Carlton Millenia, Singapore 039799",
       "cuisine": "Cantonese",

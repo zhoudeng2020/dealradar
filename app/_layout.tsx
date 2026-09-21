@@ -16,7 +16,7 @@ export default function RootLayout() {
           contentStyle: { backgroundColor: colors.bg },
         }}
       >
-        <Stack.Screen name="index" options={{ title: 'DealRadar' }} />
+        <Stack.Screen name="index" options={{ title: 'EatRadar' }} />
         <Stack.Screen name="deal/[id]" options={{ title: 'Deal' }} />
       </Stack>
     </FeedProvider>
