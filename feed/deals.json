@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-21T02:24:59+00:00",
+  "generatedAt": "2026-10-05T01:09:24.999Z",
   "venues": [
     {
       "id": "sg-harrys-boat-quay",
@@ -1858,7 +1858,7 @@
       "sourceUrl": "https://harrys.com.sg",
       "lastVerified": "2026-09-01",
       "confidence": 0.7,
-      "discountPct": 50.0
+      "discountPct": 50
     },
     {
       "id": "d-level33-high-beer",
@@ -1880,9 +1880,9 @@
         }
       ],
       "sourceUrl": "https://level33.com.sg/p/weekday-high-beer-at-level33",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 48.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 48
     },
     {
       "id": "d-level33-set-lunch",
@@ -1904,9 +1904,9 @@
         }
       ],
       "sourceUrl": "https://level33.com.sg/wp-content/uploads/2026/07/A3-Set-Lunch_July-26.pdf",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 48.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 48
     },
     {
       "id": "d-level33-weekender",
@@ -1925,9 +1925,9 @@
         }
       ],
       "sourceUrl": "https://level33.com.sg/wp-content/uploads/2026/07/A4-Weekender_July26.pdf",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 88.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 88
     },
     {
       "id": "d-brewerkz-hh",
@@ -1953,7 +1953,7 @@
       "sourceUrl": "https://brewerkz.com",
       "lastVerified": "2026-09-01",
       "confidence": 0.7,
-      "discountPct": 50.0
+      "discountPct": 50
     },
     {
       "id": "d-southbridge-hh",
@@ -1981,9 +1981,9 @@
         }
       ],
       "sourceUrl": "https://www.southbridge.sg/happyhour",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 10.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 10
     },
     {
       "id": "d-cmcr-weekday-brunch",
@@ -2007,8 +2007,8 @@
       "sourceUrl": "https://commonmancoffeeroasters.com",
       "lastVerified": "2026-09-01",
       "confidence": 0.6,
-      "price": 22.0,
-      "originalPrice": 30.0
+      "price": 22,
+      "originalPrice": 30
     },
     {
       "id": "d-yakun-breakfast-set",
@@ -2065,7 +2065,7 @@
       "sourceUrl": "https://wildhoney.com.sg",
       "lastVerified": "2026-09-01",
       "confidence": 0.5,
-      "discountPct": 15.0
+      "discountPct": 15
     },
     {
       "id": "d-tbc-weekend-brunch",
@@ -2086,8 +2086,8 @@
       "sourceUrl": "https://tanjongbeachclub.com",
       "lastVerified": "2026-09-01",
       "confidence": 0.6,
-      "price": 58.0,
-      "originalPrice": 75.0
+      "price": 58,
+      "originalPrice": 75
     },
     {
       "id": "d-celavi-ladies-night",
@@ -2106,7 +2106,7 @@
       ],
       "sourceUrl": "https://sg.celavi.com/events/ladies-night",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0
+      "confidence": 1
     },
     {
       "id": "d-celavi-liquid-brunch",
@@ -2124,9 +2124,9 @@
         }
       ],
       "sourceUrl": "https://sg.celavi.com/events/liquid-brunch",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 168.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 168
     },
     {
       "id": "d-mr-stork-hh",
@@ -2151,8 +2151,8 @@
       ],
       "sourceUrl": "https://www.hyatt.com/content/dam/hotel/propertysites/assets/andaz/sinaz/documents/en_US/dining/mr-stork/Mr-Stork-Happier-Hour.pdf",
       "lastVerified": "2026-09-10",
-      "confidence": 1.0,
-      "price": 10.0
+      "confidence": 1,
+      "price": 10
     },
     {
       "id": "d-lau-pa-sat-satay",
@@ -2205,10 +2205,10 @@
         }
       ],
       "sourceUrl": "https://brewerkz.com",
-      "lastVerified": "2026-09-01",
+      "lastVerified": "2026-10-05",
       "confidence": 0.5,
-      "price": 18.0,
-      "originalPrice": 26.0
+      "price": 18,
+      "originalPrice": 26
     },
     {
       "id": "d-ott-hh",
@@ -2234,8 +2234,8 @@
       "sourceUrl": "https://www.facebook.com/oldtaipatavern",
       "lastVerified": "2026-09-01",
       "confidence": 0.6,
-      "price": 35.0,
-      "originalPrice": 55.0
+      "price": 35,
+      "originalPrice": 55
     },
     {
       "id": "d-mcsorleys-hh",
@@ -2261,7 +2261,7 @@
       "sourceUrl": "https://www.venetianmacao.com/restaurants/mcsorleys-ale-house.html",
       "lastVerified": "2026-09-01",
       "confidence": 0.6,
-      "discountPct": 30.0
+      "discountPct": 30
     },
     {
       "id": "d-sky21-hh",
@@ -2287,7 +2287,7 @@
       "sourceUrl": "https://sky21macau.com",
       "lastVerified": "2026-09-01",
       "confidence": 0.6,
-      "discountPct": 50.0
+      "discountPct": 50
     },
     {
       "id": "d-gingerlily-hh",
@@ -2312,8 +2312,8 @@
       ],
       "sourceUrl": "https://www.hilton.com/en/hotels/sinorhi-hilton-singapore-orchard/dining/ginger-lily-bar/",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 12.0
+      "confidence": 1,
+      "price": 12
     },
     {
       "id": "d-10scotts-hh",
@@ -2338,8 +2338,8 @@
       ],
       "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/dining",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 55.0
+      "confidence": 1,
+      "price": 55
     },
     {
       "id": "d-lantern-skive",
@@ -2361,9 +2361,9 @@
         }
       ],
       "sourceUrl": "https://www.fullertonhotels.com/fullerton-bay-hotel-singapore/offers/the-skive-life-at-lantern",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 10.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 10
     },
     {
       "id": "d-spago-social-hour",
@@ -2382,8 +2382,8 @@
       ],
       "sourceUrl": "https://www.marinabaysands.com/restaurants/spago-bar-and-lounge.html",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "discountPct": 50.0
+      "confidence": 1,
+      "discountPct": 50
     },
     {
       "id": "d-wineconn-plq-hh",
@@ -2407,9 +2407,9 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-plq-2",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 20.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 20
     },
     {
       "id": "d-wineconn-plq-tea",
@@ -2431,8 +2431,8 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-plq-2",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
       "price": 9.9
     },
     {
@@ -2455,9 +2455,9 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-vivocity",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 20.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 20
     },
     {
       "id": "d-otto-set-lunch",
@@ -2479,9 +2479,9 @@
         }
       ],
       "sourceUrl": "https://www.ottoristorante.com.sg/set-lunch/",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 42.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 42
     },
     {
       "id": "d-fortuna-set-lunch",
@@ -2503,8 +2503,8 @@
         }
       ],
       "sourceUrl": "https://fortunadrinkeat.sg/italian-set-lunch/",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
       "price": 39.9
     },
     {
@@ -2529,9 +2529,9 @@
         }
       ],
       "sourceUrl": "https://www.sushiyujo.sg/",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 68.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 68
     },
     {
       "id": "d-novotel-sunday-brunch",
@@ -2550,9 +2550,9 @@
       ],
       "sourceUrl": "https://www.novotel-singapore-stevens.com/offers/sunday-brunch-at-stevens/",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 69.0,
-      "originalPrice": 88.0
+      "confidence": 1,
+      "price": 69,
+      "originalPrice": 88
     },
     {
       "id": "d-cafe2000-brunch",
@@ -2572,9 +2572,9 @@
       ],
       "sourceUrl": "https://www.millenniumhotels.com/en/offers/asia/m-hotel-singapore/dining/cafe-2000/weekend-brunch-buffet-madness/",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "confidence": 1,
       "price": 34.5,
-      "originalPrice": 46.0
+      "originalPrice": 46
     },
     {
       "id": "d-foodcapital-brunch",
@@ -2592,9 +2592,9 @@
         }
       ],
       "sourceUrl": "https://www.millenniumhotels.com/en/offers/asia/grand-copthorne-waterfront/dining/brunch-at-grand-copthorne-waterfront/",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 118.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 118
     },
     {
       "id": "d-le-buffet-dinner",
@@ -2618,9 +2618,9 @@
         }
       ],
       "sourceUrl": "https://www.parisianmacao.com/restaurants/le-buffet.html",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 698.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 698
     },
     {
       "id": "d-churchills-tea",
@@ -2651,8 +2651,8 @@
       ],
       "sourceUrl": "https://www.londonermacao.com/macau-restaurants/churchills-table.html",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 558.0
+      "confidence": 1,
+      "price": 558
     },
     {
       "id": "d-hiro-ramen-lunch",
@@ -2675,9 +2675,9 @@
         }
       ],
       "sourceUrl": "https://www.venetianmacao.com/restaurants/hiro-ramen.html",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 200.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 200
     },
     {
       "id": "d-jiangnan-lunch",
@@ -2701,8 +2701,8 @@
       ],
       "sourceUrl": "https://www.venetianmacao.com/restaurants/jiang-nan.html",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 558.0
+      "confidence": 1,
+      "price": 558
     },
     {
       "id": "d-grand-buffet-lunch",
@@ -2724,10 +2724,10 @@
         }
       ],
       "sourceUrl": "https://www.grandlisboapalace.com/en/restaurants-n-bars/the-grand-buffet",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 358.0,
-      "originalPrice": 408.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 358,
+      "originalPrice": 408
     },
     {
       "id": "d-spotlight-lunch",
@@ -2751,10 +2751,10 @@
         }
       ],
       "sourceUrl": "https://www.studiocity-macau.com/en/dining/spotlight",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 358.0,
-      "originalPrice": 628.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 358,
+      "originalPrice": 628
     },
     {
       "id": "d-xanadu-hh",
@@ -2780,7 +2780,7 @@
       "sourceUrl": "https://www.sandsmacao.com/dining/xanadu-lounge.html",
       "lastVerified": "2026-09-11",
       "confidence": 0.9,
-      "discountPct": 50.0
+      "discountPct": 50
     },
     {
       "id": "d-360-cafe-autumn",
@@ -2804,10 +2804,10 @@
         }
       ],
       "sourceUrl": "https://www.macautower.com.mo/en/dining/360-cafe/",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
       "price": 511.2,
-      "originalPrice": 568.0,
+      "originalPrice": 568,
       "validUntil": "2026-10-31"
     },
     {
@@ -2839,8 +2839,8 @@
       ],
       "sourceUrl": "https://www.hotelroyal.com.mo/offers/royal-bakery-late-night-50-off-privilege",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "discountPct": 50.0
+      "confidence": 1,
+      "discountPct": 50
     },
     {
       "id": "d-sintra-breakfast",
@@ -2864,9 +2864,9 @@
         }
       ],
       "sourceUrl": "https://www.hotelsintra.com/promotions.html",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 100.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 100
     },
     {
       "id": "d-baba-chews-breakfast",
@@ -2891,8 +2891,8 @@
       ],
       "sourceUrl": "https://babachews.com.sg/promotion/baba-chews-breakfast-buffet/",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 35.0
+      "confidence": 1,
+      "price": 35
     },
     {
       "id": "d-baba-chews-hh",
@@ -2917,8 +2917,8 @@
       ],
       "sourceUrl": "https://babachews.com.sg/promotion/happy-hour/",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 12.0
+      "confidence": 1,
+      "price": 12
     },
     {
       "id": "d-wineconn-i12-hh",
@@ -2940,9 +2940,9 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-i12-katong",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 20.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 20
     },
     {
       "id": "d-malthouse-hh",
@@ -2978,9 +2978,9 @@
         }
       ],
       "sourceUrl": "https://www.malthouse.sg/blog/craft-beer-siglap-happy-hour-deals",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 10.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 10
     },
     {
       "id": "d-wineconn-tampines-hh",
@@ -3004,9 +3004,9 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-tampines-1",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 20.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 20
     },
     {
       "id": "d-wineconn-ntp-hh",
@@ -3028,9 +3028,9 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-new-tech-park",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 20.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 20
     },
     {
       "id": "d-wineconn-de-lunch",
@@ -3052,8 +3052,8 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-downtown-east",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
       "price": 10.9
     },
     {
@@ -3078,7 +3078,7 @@
       ],
       "sourceUrl": "https://www.sky22restaurant.com/",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "confidence": 1,
       "price": 29.5
     },
     {
@@ -3104,8 +3104,8 @@
       ],
       "sourceUrl": "https://www.sky22restaurant.com/",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 6.0
+      "confidence": 1,
+      "price": 6
     },
     {
       "id": "d-wineconn-westgate-hh",
@@ -3129,9 +3129,9 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-westgate",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 20.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 20
     },
     {
       "id": "d-wineconn-westgate-lunch",
@@ -3153,8 +3153,8 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-westgate",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
       "price": 10.9
     },
     {
@@ -3179,9 +3179,9 @@
         }
       ],
       "sourceUrl": "https://www.wineconnection.com.sg/pages/wine-connection-bistro-hillv2",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 20.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 20
     },
     {
       "id": "d-publico-set-lunch",
@@ -3203,9 +3203,9 @@
         }
       ],
       "sourceUrl": "https://publico.sg/whats-on/",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 32.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 32
     },
     {
       "id": "d-novotel-aperitif-hh",
@@ -3229,9 +3229,9 @@
         }
       ],
       "sourceUrl": "https://www.novotel-singapore-stevens.com/offers/happy-hour-stevens/",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 38.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 38
     },
     {
       "id": "d-foodcapital-semibuffet",
@@ -3251,9 +3251,9 @@
         }
       ],
       "sourceUrl": "https://www.millenniumhotels.com/en/offers/asia/grand-copthorne-waterfront/dining/food-capital/semi-buffet-at-food-capital",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 68.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 68
     },
     {
       "id": "d-lantern-ladies-night",
@@ -3271,9 +3271,9 @@
         }
       ],
       "sourceUrl": "https://www.fullertonhotels.com/fullerton-bay-hotel-singapore/dining/restaurants-and-bars/lantern",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 58.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 58
     },
     {
       "id": "d-edge-lunch-buffet",
@@ -3295,10 +3295,10 @@
         }
       ],
       "sourceUrl": "https://www.panpacific.com/en/hotels-and-resorts/pp-marina/dining/edge.html",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 40.0,
-      "originalPrice": 72.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 40,
+      "originalPrice": 72,
       "validUntil": "2026-11-15"
     },
     {
@@ -3318,8 +3318,8 @@
       ],
       "sourceUrl": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 45.0
+      "confidence": 1,
+      "price": 45
     },
     {
       "id": "d-5on25-dimsum",
@@ -3342,8 +3342,8 @@
       ],
       "sourceUrl": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 68.0
+      "confidence": 1,
+      "price": 68
     },
     {
       "id": "d-5on25-yumcha",
@@ -3363,8 +3363,8 @@
       ],
       "sourceUrl": "https://www.hyatt.com/andaz/en-US/sinaz-andaz-singapore/dining",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 68.0
+      "confidence": 1,
+      "price": 68
     },
     {
       "id": "d-crossroads-hh",
@@ -3386,8 +3386,8 @@
       ],
       "sourceUrl": "https://www.crossroadssg.com/promotions",
       "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 14.0
+      "confidence": 1,
+      "price": 14
     },
     {
       "id": "d-kinki-hh",
@@ -3416,9 +3416,9 @@
         }
       ],
       "sourceUrl": "https://www.kinki.com.sg/promotions/super-happy-hour",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 23.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 23
     },
     {
       "id": "d-kinki-brunch",
@@ -3436,9 +3436,9 @@
         }
       ],
       "sourceUrl": "https://www.kinki.com.sg/promotions/kinki-bottomless-brunch",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
-      "price": 68.0
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 68
     },
     {
       "id": "d-yoasobi-lunch",
@@ -3460,8 +3460,8 @@
         }
       ],
       "sourceUrl": "https://kanpaigroup.sg/yoasobi",
-      "lastVerified": "2026-09-11",
-      "confidence": 1.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
       "price": 11.8
     },
     {
@@ -3481,8 +3481,8 @@
       ],
       "sourceUrl": "https://www.summerpavilion.com.sg/offers",
       "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "price": 268.0,
+      "confidence": 1,
+      "price": 268,
       "validFrom": "2026-09-23",
       "validUntil": "2026-09-23"
     },
@@ -3514,8 +3514,8 @@
       ],
       "sourceUrl": "https://www.summerpavilion.com.sg/offers",
       "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "price": 288.0,
+      "confidence": 1,
+      "price": 288,
       "validFrom": "2026-10-09",
       "validUntil": "2026-10-11"
     },
@@ -3536,9 +3536,9 @@
         }
       ],
       "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
-      "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "price": 108.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 108,
       "validFrom": "2026-10-09",
       "validUntil": "2026-10-10"
     },
@@ -3559,9 +3559,9 @@
         }
       ],
       "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
-      "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "price": 88.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 88,
       "validFrom": "2026-10-09",
       "validUntil": "2026-10-10"
     },
@@ -3582,9 +3582,9 @@
         }
       ],
       "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
-      "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "price": 138.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 138,
       "validFrom": "2026-10-10",
       "validUntil": "2026-10-11"
     },
@@ -3604,9 +3604,9 @@
         }
       ],
       "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
-      "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "price": 68.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 68,
       "validFrom": "2026-10-09",
       "validUntil": "2026-10-09"
     },
@@ -3627,9 +3627,9 @@
         }
       ],
       "sourceUrl": "https://www.fullertonhotels.com/dining/singapore-night-race-dining",
-      "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "price": 78.0,
+      "lastVerified": "2026-10-05",
+      "confidence": 1,
+      "price": 78,
       "validFrom": "2026-10-10",
       "validUntil": "2026-10-11"
     },
@@ -3656,8 +3656,8 @@
       ],
       "sourceUrl": "https://www.studiocity-macau.com/en/offers/20-seafood-buffet-macau-residents",
       "lastVerified": "2026-09-16",
-      "confidence": 1.0,
-      "discountPct": 20.0,
+      "confidence": 1,
+      "discountPct": 20,
       "validUntil": "2026-12-31"
     }
   ]
